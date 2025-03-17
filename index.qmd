@@ -1,0 +1,8 @@
+---
+title: "SMT201_AY2024-25T2 (Group 5)"
+author: Santhya <br> Karina <br>Teck Yew 
+---
+
+G2T5: Solar Panel
+
+Our project is under SMT201: Geographical information Systems for Urban Planning module, which is headed by Professor Kam Tin Seong under Singapore Management University School of Computing and Information Systems.
