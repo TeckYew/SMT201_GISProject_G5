@@ -7,6 +7,8 @@
 .navbar-nav .nav-link {
     font-size: 15px; /* Adjust the size as needed */
     color: white !important; 
+    padding: 12px 25px !important;
+    letter-spacing: 0.05rem; 
 }
 
 .navbar-nav .nav-link:hover {
