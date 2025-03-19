@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "SMT201-Group 5"
+  title: "GROUP 5"
   navbar:
     left:
       - href: "index.html"
