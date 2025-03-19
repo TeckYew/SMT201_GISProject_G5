@@ -1,6 +1,8 @@
 ---
 title: "SMT201_AY2024-25T2 (Group 5)"
 author: Santhya <br> Karina <br>Teck Yew 
+date: "March 15, 2025"
+date-modified: "March 19,2025"
 ---
 
 G2T5: Solar Panel
