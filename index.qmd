@@ -5,7 +5,7 @@ date: "March 15, 2025"
 date-modified: "March 19,2025"
 ---
 
-![](images/solar panel-06.png){fig-align="center" width="436"}
+![](images/solar%20panel-06.png){fig-align="center" width="436"}
 
 This project is part of SMT201: Geographical information Systems for Urban Planning module, headed by Professor Kam Tin Seong under Singapore Management University, School of Computing and Information Systems. We are given 2 themes to choose from, mainly analysis of farms or land cover change detection. We have decided to go with the first theme: the Application of GIS-based Multi-criteria Analysis for solar farm suitability assessment.
 

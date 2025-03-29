@@ -27,6 +27,24 @@ Our project's main objectives are as follow:
 
 ## Data
 
+For the purpose of this project, we will be using various land-form and satellite data. The data is taken from [Data Gov](https://data.gov.sg/) and [Earth Explorer USGS](https://earthexplorer.usgs.gov/) websites. The table below will show the sources of the files that we have used for our analysis.
+
+For the Land Form data taken from Data Gov:
+
+| File Name | Description | Source |
+|-----------|-------------|--------|
+|           |             |        |
+|           |             |        |
+|           |             |        |
+
+For the Earth Explorer USGS site:
+
+| File Name | Description | Source |
+|-----------|-------------|--------|
+|           |             |        |
+|           |             |        |
+|           |             |        |
+
 ## **Project Study Area**
 
 ## Scope of Work
