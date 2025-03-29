@@ -53,7 +53,7 @@
     "href": "overview.html#data",
     "title": "OVERVIEW",
     "section": "Data",
-    "text": "Data\nFor the purpose of this project, we will be using various land-form and satellite data. The data is taken from Data Gov and Earth Explorer USGS websites.\nFor the Data Gov site:\n\n\n\nFile Name\nDescription\nSource\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the Earth Explorer USGS site:\n\n\n\nFile Name\nDescription\nSource"
+    "text": "Data\nFor the purpose of this project, we will be using various land-form and satellite data. The data is taken from Data Gov and Earth Explorer USGS websites. The table below will show the sources of the files that we have used for our analysis.\nFor the Land Form data taken from Data Gov:\n\n\n\nFile Name\nDescription\nSource\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor the Earth Explorer USGS site:\n\n\n\nFile Name\nDescription\nSource"
   },
   {
     "objectID": "overview.html#project-study-area",
@@ -67,7 +67,7 @@
     "href": "overview.html#scope-of-work",
     "title": "OVERVIEW",
     "section": "Scope of Work",
-    "text": "Scope of Work"
+    "text": "Scope of Work\nThis project will primarily focus on solar farm site suitability analysis using remote sensing and geospatial techniques. We will utilize slope analysis and land-form classification, along with literature reviews, to assess optimal locations for solar farm deployment. The project scope includes site selection and data collection, data preprocessing, conducting slope and land-form analysis, and ultimately identifying and evaluating suitable areas for solar farm installation. The analysis will consider factors such as terrain slope, elevation, and surface conditions to determine feasibility for solar farm development."
   },
   {
     "objectID": "overview.html#project-schedule",

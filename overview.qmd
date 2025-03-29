@@ -49,6 +49,8 @@ For the Earth Explorer USGS site:
 
 ## Scope of Work
 
+This project will primarily focus on **solar farm site suitability analysis** using remote sensing and geospatial techniques. We will utilize **slope analysis and land-form classification**, along with literature reviews, to assess optimal locations for solar farm deployment. The project scope includes site selection and data collection, data preprocessing, conducting **slope and land-form analysis**, and ultimately **identifying and evaluating suitable areas for solar farm installation**. The analysis will consider factors such as **terrain slope, elevation, and surface conditions** to determine feasibility for solar farm development.
+
 ## Project Schedule
 
 ![](images/clipboard-3716410169.png)
