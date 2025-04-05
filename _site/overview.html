@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Over the past few years, Singapore has witnessed significant growth in solar panel deployment due to advancements in renewable energy and decreasing installation costs. Since the second quarter of 2023, the declining costs of solar installations have accelerated the adoption of solar panels across residential, commercial, and industrial sectors. In response to this, the government has continued to enhance its solar initiatives, such as the SolarNova program, to increase the nation’s renewable energy capacity and meet Singapore’s long-term sustainability goals. As more rooftops, open spaces, and reservoirs are utilized for solar panel installations, challenges related to land optimization, energy storage, and grid integration are becoming increasingly relevant, especially in Singapore’s land-scarce environment.</p>
+<p>Singapore is a small city with its unique attractions and natural habitats. Throughout the years, the annual mean temparature has rose by 0.24 degree celsius per decade. As such, over the past few years, Singapore has witnessed significant growth in solar panel deployment due to advancements in renewable energy and decreasing installation costs. Since the second quarter of 2023, the declining costs of solar installations have accelerated the adoption of solar panels across residential, commercial, and industrial sectors. In response to this, the government has continued to enhance its solar initiatives, such as the SolarNova program, to increase the nation’s renewable energy capacity and meet Singapore’s long-term sustainability goals. As more rooftops, open spaces, and reservoirs are utilized for solar panel installations, challenges related to land optimization, energy storage, and grid integration are becoming increasingly relevant, especially in Singapore’s land-scarce environment.</p>
 <p>Solar energy deployment and efficiency monitoring are critical for sustainable urban planning and energy management. Solar potential assessments involve analyzing factors such as irradiance levels, panel efficiency, and land availability to determine optimal installation sites. Remote sensing and data analytics play a crucial role in tracking solar adoption and optimizing energy distribution. In contrast, energy management strategies focus on integrating solar power into Singapore’s national grid while ensuring stability and efficiency in electricity distribution.</p>
 <p>In this project, we utilized geospatial analysis and solar irradiance data to assess the growth and efficiency of solar panel installations across key urban areas in Singapore from 2022 to 2024.</p>
 </section>
@@ -258,6 +258,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><a href="https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/" class="uri">https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/</a></li>
+</ul>
 
 
 </section>
@@ -345,6 +348,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -455,6 +460,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
