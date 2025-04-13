@@ -65,7 +65,7 @@ Prediction Of Worldwide Energy Resources (POWER) is a project that seeks to prov
 The parameters for the API Call are as summarised below:
 
 | **Parameter** | **Description** |
-|------------------------------------|------------------------------------|
+|----|----|
 | `parameters` | The climate or solar parameter to retrieve (only one allowed per request) |
 | `community` | Defines the user community and data context |
 | `latitude-min` | Minimum latitude of the bounding box |
