@@ -4,7 +4,7 @@ title: "OVERVIEW"
 
 ## Introduction
 
-Singapore is a small city with its unique attractions and natural habitats. Throughout the years, the annual mean temparature has rose by 0.24 degree celsius per decade. As such, over the past few years, Singapore has witnessed significant growth in solar panel deployment due to advancements in renewable energy and decreasing installation costs. Since the second quarter of 2023, the declining costs of solar installations have accelerated the adoption of solar panels across residential, commercial, and industrial sectors. In response to this, the government has continued to enhance its solar initiatives, such as the SolarNova program, to increase the nation’s renewable energy capacity and meet Singapore’s long-term sustainability goals. As more rooftops, open spaces, and reservoirs are utilized for solar panel installations, challenges related to land optimization, energy storage, and grid integration are becoming increasingly relevant, especially in Singapore’s land-scarce environment.
+Singapore is a small city with its unique attractions and natural habitats. Throughout the years, the annual mean temperature has rose by 0.24 degree celsius per decade. As such, over the past few years, Singapore has witnessed significant growth in solar panel deployment due to advancements in renewable energy and decreasing installation costs. Since the second quarter of 2023, the declining costs of solar installations have accelerated the adoption of solar panels across residential, commercial, and industrial sectors. In response to this, the government has continued to enhance its solar initiatives, such as the SolarNova program, to increase the nation’s renewable energy capacity and meet Singapore’s long-term sustainability goals. As more rooftops, open spaces, and reservoirs are utilized for solar panel installations, challenges related to land optimization, energy storage, and grid integration are becoming increasingly relevant, especially in Singapore’s land-scarce environment.
 
 Solar energy deployment and efficiency monitoring are critical for sustainable urban planning and energy management. Solar potential assessments involve analyzing factors such as irradiance levels, panel efficiency, and land availability to determine optimal installation sites. Remote sensing and data analytics play a crucial role in tracking solar adoption and optimizing energy distribution. In contrast, energy management strategies focus on integrating solar power into Singapore’s national grid while ensuring stability and efficiency in electricity distribution.
 
@@ -32,10 +32,10 @@ For the purpose of this project, we will be using various land-form and satellit
 For the Land Form data taken from Data Gov:
 
 | File Name | Description | Source |
-|-----------|-------------|--------|
-|           |             |        |
-|           |             |        |
-|           |             |        |
+|----|----|----|
+| Land Use 2019 | Provides the map layer for Singapore | <https://data.gov.sg/datasets?query=land+use+2019&page=1&resultId=d_90d86daa5bfaa371668b84fa5f01424f> |
+|  |  | <https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view> |
+| Derived map of global electricity transmission and distribution lines | Electricity transmission of power grids occurring in Singapore | <https://energydata.info/dataset/derived-map-global-electricity-transmission-and-distribution-lines> |
 
 For the Earth Explorer USGS site:
 
