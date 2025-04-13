@@ -19,7 +19,7 @@ To select Lim Chu Kang as the specific study area for solar panel installation, 
 
 ## Aspect: 
 
-Aspect is derived 5from the data of DEM of Singapore. The below is the results of aspect of the entire Singapore.
+Aspect is derived from the data of DEM of Singapore. The below is the results of aspect of the entire Singapore.
 
 With this, we decide to conduct suitability ranking of the aspect data. The following is the ranking we follow:
 
