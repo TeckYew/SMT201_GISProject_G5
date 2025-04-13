@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -136,8 +136,18 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection">Data Collection</a></li>
+  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
   <li><a href="#madm-topography-analysis" id="toc-madm-topography-analysis" class="nav-link" data-scroll-target="#madm-topography-analysis">MADM Topography Analysis</a></li>
-  <li><a href="#area-feasibility-analysis" id="toc-area-feasibility-analysis" class="nav-link" data-scroll-target="#area-feasibility-analysis">Area Feasibility Analysis</a></li>
+  <li><a href="#area-feasibility-analysis" id="toc-area-feasibility-analysis" class="nav-link" data-scroll-target="#area-feasibility-analysis">Area Feasibility Analysis</a>
+  <ul class="collapse">
+  <li><a href="#power-grid-electricity-flow" id="toc-power-grid-electricity-flow" class="nav-link" data-scroll-target="#power-grid-electricity-flow">Power Grid Electricity Flow</a></li>
+  <li><a href="#surface-irradiance" id="toc-surface-irradiance" class="nav-link" data-scroll-target="#surface-irradiance">Surface Irradiance</a>
+  <ul class="collapse">
+  <li><a href="#irradiance-data" id="toc-irradiance-data" class="nav-link" data-scroll-target="#irradiance-data">Irradiance Data</a></li>
+  <li><a href="#irradiance-area-calculation" id="toc-irradiance-area-calculation" class="nav-link" data-scroll-target="#irradiance-area-calculation">Irradiance Area Calculation</a></li>
+  </ul></li>
+  <li><a href="#property-prices" id="toc-property-prices" class="nav-link" data-scroll-target="#property-prices">Property Prices</a></li>
+  </ul></li>
   <li><a href="#final-site-selection" id="toc-final-site-selection" class="nav-link" data-scroll-target="#final-site-selection">Final Site Selection</a></li>
   </ul>
 </nav>
@@ -175,12 +185,100 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-collection" class="level1">
 <h1>Data Collection</h1>
+<p>Data was collected from various sources to be used in the different analyses. Namely, they are:</p>
+<ul>
+<li><p>Data.gov.sg:</p>
+<ul>
+<li><p><a href="https://data.gov.sg/datasets?query=2019+subzone+masterplan&amp;resultId=d_0900fdcfdb4666fe2a630f37a532fc06&amp;page=1">Master Plan 2019 Subzone Boundary (No Sea) (KML)</a>: Subzone Boundary Layer of Singapore for Master Plan 2019</p></li>
+<li><p><a href="https://data.gov.sg/datasets?query=landuse+2019&amp;page=1&amp;resultId=d_f8adc7bd980dd15861c83ff370a72eaa">Amendment to Master Plan 2019 Land Use layer</a>: Landuse Layer for Master Plan 2019</p></li>
+</ul></li>
+<li><p><a href="https://power.larc.nasa.gov/api/pages/?urls.primaryName=Monthly+%26+Annual">NASA POWER Monthly and Annual API</a>: This API was used to retrieve surface irradiance data for Singapore.</p></li>
+</ul>
+</section>
+<section id="data-preparation" class="level1">
+<h1>Data Preparation</h1>
 </section>
 <section id="madm-topography-analysis" class="level1">
 <h1>MADM Topography Analysis</h1>
 </section>
 <section id="area-feasibility-analysis" class="level1">
 <h1>Area Feasibility Analysis</h1>
+<section id="power-grid-electricity-flow" class="level2">
+<h2 class="anchored" data-anchor-id="power-grid-electricity-flow">Power Grid Electricity Flow</h2>
+</section>
+<section id="surface-irradiance" class="level2">
+<h2 class="anchored" data-anchor-id="surface-irradiance">Surface Irradiance</h2>
+<section id="irradiance-data" class="level3">
+<h3 class="anchored" data-anchor-id="irradiance-data">Irradiance Data</h3>
+<p>Prediction Of Worldwide Energy Resources (POWER) is a project that seeks to provide data and services related to renewable energy like solar energy. The open API services provided by POWER allows for retrieval of irradiance data for our specified region of the world. This API was used to retrieve the monthly Irradiance values for Singapore from the years 2023-2025.</p>
+<p>The parameters for the API Call are as summarised below:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>parameters</code></td>
+<td>The climate or solar parameter to retrieve (only one allowed per request)</td>
+</tr>
+<tr class="even">
+<td><code>community</code></td>
+<td>Defines the user community and data context</td>
+</tr>
+<tr class="odd">
+<td><code>latitude-min</code></td>
+<td>Minimum latitude of the bounding box</td>
+</tr>
+<tr class="even">
+<td><code>latitude-max</code></td>
+<td>Maximum latitude of the bounding box</td>
+</tr>
+<tr class="odd">
+<td><code>longitude-min</code></td>
+<td>Minimum longitude of the bounding box</td>
+</tr>
+<tr class="even">
+<td><code>longitude-max</code></td>
+<td>Maximum longitude of the bounding box</td>
+</tr>
+<tr class="odd">
+<td><code>start</code></td>
+<td>Start year of the data request</td>
+</tr>
+<tr class="even">
+<td><code>end</code></td>
+<td>End year of the data request</td>
+</tr>
+<tr class="odd">
+<td><code>format</code></td>
+<td>Output file format</td>
+</tr>
+</tbody>
+</table>
+<p>The API Call that was used to retrieve the data was therefore:</p>
+<p><code>https://power.larc.nasa.gov/api/temporal/monthly/point?start=2023&amp;end=2025&amp;latitude=1.3521&amp;longitude=103.8198&amp;parameters=ALLSKY_SFC_SW_DWN&amp;community=RE&amp;format=CSV</code></p>
+<p>The API call returns monthly Irradiance values, as well as an annual average. For our analysis, the annual average was used.</p>
+</section>
+<section id="irradiance-area-calculation" class="level3">
+<h3 class="anchored" data-anchor-id="irradiance-area-calculation">Irradiance Area Calculation</h3>
+<p>In QGIS, we first load in the Masterplan 2019 Subzone Boundaary Layer.</p>
+<ul>
+<li><p>After which, a new field, “Area” was calculated using the field calculator, with the expression : <code>$area</code></p></li>
+<li><p>This area was multiplied by the annual irradiance value of 2023, since it was the year with complete readings.</p></li>
+<li><p>The result was then symbolised on a map with graduated colouring.</p></li>
+</ul>
+</section>
+</section>
+<section id="property-prices" class="level2">
+<h2 class="anchored" data-anchor-id="property-prices">Property Prices</h2>
+</section>
 </section>
 <section id="final-site-selection" class="level1">
 <h1>Final Site Selection</h1>
@@ -271,6 +369,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -381,6 +481,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

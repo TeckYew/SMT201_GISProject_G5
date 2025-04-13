@@ -95,7 +95,7 @@
     "href": "methodology.html",
     "title": "METHODOLOGY",
     "section": "",
-    "text": "Overview\n\n\n\n\n\nThe chart above shows the overall process that our team employed in our project. In this page, we will go through each of these phases into further detail.\n\n\nData Collection\n\n\nMADM Topography Analysis\n\n\nArea Feasibility Analysis\n\n\nFinal Site Selection"
+    "text": "The chart above shows the overall process that our team employed in our project. In this page, we will go through each of these phases into further detail."
   },
   {
     "objectID": "poster.html",
@@ -110,5 +110,26 @@
     "title": "LESSONS LEARNED",
     "section": "",
     "text": "As this project is towards GIS-based Multi-criteria Analysis, or what we call Multiple-criteria Decision Analysis (MADM) for solar farm, there are multiple considerations to determine the land area for research. We need to consider the approach to uncover land use factors and as there are many different subzones that can be considered for solar farms installation, uncovering at least one of them will help consider factors that contribute to greater suitability assessment for other areas in Singapore. Lim Chu Kang has caught the attention of us due to its great factorial contributors that helped us determine it to be particularly suitable due to its huge spatial land area and even ground for solar farms, etc..\nFrom our analysis, we can conclude that despite the consistent aspect suitability experienced in Singapore, surface irradiance involving sunlight and slope suitability are 2 of the factors that are viable to suggest suitability of solar farms. The installation of solar farms require lands that have the least slope and greater amount of sunlight, amongst many other factors. This can be attributed to the fact that Lim Chu Kang have been primarily used for commercial purposes and its place for army grounds and cemeteries. Additionally, the upcoming masterplan developments of Lim Chu Kang become a key enablement of Singapore to produce 30 per cent of nutritional needs by 2030 using solar panels in greenhouses for harnessing renewable energy and intensifying land use such as growing produce in underground caverns to guard against rising sea levels, these are potential areas that increase the suitability for Lim Chu Kang as the best land for research.\nThere are many other methods and factors to look out for, in which a research from the Geography compass suggest the use of waterdistance criterion and additional weight criterion for research purposes. Many ways have been conducted to analyse land cover factors for suitability of solar farms, but the change in weather conditions and global warming have outweigh the potential of consistent findings throughout researches. Our findings only contribute to a single subzone of Singapore, and along with many factors involve, we believe that in the future, more works can be done to accomplish what many have set along their path to do."
+  },
+  {
+    "objectID": "methodology.html#power-grid-electricity-flow",
+    "href": "methodology.html#power-grid-electricity-flow",
+    "title": "METHODOLOGY",
+    "section": "Power Grid Electricity Flow",
+    "text": "Power Grid Electricity Flow"
+  },
+  {
+    "objectID": "methodology.html#surface-irradiance",
+    "href": "methodology.html#surface-irradiance",
+    "title": "METHODOLOGY",
+    "section": "Surface Irradiance",
+    "text": "Surface Irradiance\n\nIrradiance Data\nPrediction Of Worldwide Energy Resources (POWER) is a project that seeks to provide data and services related to renewable energy like solar energy. The open API services provided by POWER allows for retrieval of irradiance data for our specified region of the world. This API was used to retrieve the monthly Irradiance values for Singapore from the years 2023-2025.\nThe parameters for the API Call are as summarised below:\n\n\n\n\n\n\n\nParameter\nDescription\n\n\n\n\nparameters\nThe climate or solar parameter to retrieve (only one allowed per request)\n\n\ncommunity\nDefines the user community and data context\n\n\nlatitude-min\nMinimum latitude of the bounding box\n\n\nlatitude-max\nMaximum latitude of the bounding box\n\n\nlongitude-min\nMinimum longitude of the bounding box\n\n\nlongitude-max\nMaximum longitude of the bounding box\n\n\nstart\nStart year of the data request\n\n\nend\nEnd year of the data request\n\n\nformat\nOutput file format\n\n\n\nThe API Call that was used to retrieve the data was therefore:\nhttps://power.larc.nasa.gov/api/temporal/monthly/point?start=2023&end=2025&latitude=1.3521&longitude=103.8198&parameters=ALLSKY_SFC_SW_DWN&community=RE&format=CSV\nThe API call returns monthly Irradiance values, as well as an annual average. For our analysis, the annual average was used.\n\n\nIrradiance Area Calculation\nIn QGIS, we first load in the Masterplan 2019 Subzone Boundaary Layer.\n\nAfter which, a new field, “Area” was calculated using the field calculator, with the expression : $area\nThis area was multiplied by the annual irradiance value of 2023, since it was the year with complete readings.\nThe result was then symbolised on a map with graduated colouring."
+  },
+  {
+    "objectID": "methodology.html#property-prices",
+    "href": "methodology.html#property-prices",
+    "title": "METHODOLOGY",
+    "section": "Property Prices",
+    "text": "Property Prices"
   }
 ]
