@@ -99,3 +99,5 @@ Property prices are a key economic factor influencing the feasibility of solar f
 ![](images/property.png){width="356"}\
 
 # Final Site Selection
+
+With all the factors considered, we decided that the most suitable location for a potential solar farm would be in **Lim Chu Kang.**
