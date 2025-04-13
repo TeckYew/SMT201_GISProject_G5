@@ -1,3 +1,8 @@
 ---
 title: "POSTER"
 ---
+
+The poster has been designed to showcase the project o solar farm suitability, specifically for Lim Chu Kang due to the factors considered for research. 
+---
+
+![](images/GIS Poster.png)
