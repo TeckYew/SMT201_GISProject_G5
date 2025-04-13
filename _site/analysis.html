@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,15 +139,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#aspect" id="toc-aspect" class="nav-link" data-scroll-target="#aspect">Aspect:</a></li>
   <li><a href="#slope" id="toc-slope" class="nav-link" data-scroll-target="#slope">Slope</a></li>
   <li><a href="#hillshade" id="toc-hillshade" class="nav-link" data-scroll-target="#hillshade">Hillshade</a></li>
+  <li><a href="#surface-ir-radiance" id="toc-surface-ir-radiance" class="nav-link" data-scroll-target="#surface-ir-radiance">Surface Ir-radiance</a></li>
   <li><a href="#final-suitability" id="toc-final-suitability" class="nav-link" data-scroll-target="#final-suitability">Final Suitability:</a>
   <ul class="collapse">
   <li><a href="#reclassify-final-suitability" id="toc-reclassify-final-suitability" class="nav-link" data-scroll-target="#reclassify-final-suitability">Reclassify final suitability</a></li>
   </ul></li>
-  <li><a href="#surface-ir-radiance" id="toc-surface-ir-radiance" class="nav-link" data-scroll-target="#surface-ir-radiance">Surface Ir-radiance</a></li>
-  <li><a href="#property-prices" id="toc-property-prices" class="nav-link" data-scroll-target="#property-prices">Property Prices</a>
-  <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
-  </ul></li>
+  <li><a href="#surface-ir-radiance-1" id="toc-surface-ir-radiance-1" class="nav-link" data-scroll-target="#surface-ir-radiance-1">Surface Ir-radiance</a></li>
+  <li><a href="#property-prices" id="toc-property-prices" class="nav-link" data-scroll-target="#property-prices">Property Prices</a></li>
   <li><a href="#power-electricity-grid-flow" id="toc-power-electricity-grid-flow" class="nav-link" data-scroll-target="#power-electricity-grid-flow">Power Electricity Grid Flow</a></li>
   </ul></li>
   <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference:</a></li>
@@ -223,14 +221,14 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <section id="aspect" class="level2">
 <h2 class="anchored" data-anchor-id="aspect">Aspect:</h2>
-<p>Aspect is derived 5from the data of DEM of Singapore. The below is the results of aspect of the entire Singapore.</p>
+<p>Aspect is derived from the data of DEM of Singapore. The below is the results of aspect of the entire Singapore.</p>
 <p>With this, we decide to conduct suitability ranking of the aspect data. The following is the ranking we follow:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 31%">
 <col style="width: 25%">
-<col style="width: 31%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -304,10 +302,10 @@ ul.task-list li input[type="checkbox"] {
 <p>With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 20%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -354,14 +352,17 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="hillshade" class="level2">
 <h2 class="anchored" data-anchor-id="hillshade">Hillshade</h2>
+</section>
+<section id="surface-ir-radiance" class="level2">
+<h2 class="anchored" data-anchor-id="surface-ir-radiance">Surface Ir-radiance</h2>
 <p>Hillshare is also derived from the data of DEM of Singapore. The below is the results of hillshade of the entire Singapore.</p>
 <p>With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 13%">
-<col style="width: 28%">
-<col style="width: 28%">
-<col style="width: 28%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -410,9 +411,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Based on Singapore’s equatorial conditions and solar energy guidelines (<a href="https://www1.bca.gov.sg/">BCA</a>, <a href="https://www.seris.nus.edu.sg/">SERIS</a>), use the following weights:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 21%">
-<col style="width: 30%">
-<col style="width: 47%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -443,9 +444,9 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="reclassify-final-suitability">Reclassify final suitability</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 28%">
-<col style="width: 27%">
-<col style="width: 43%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -485,14 +486,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Next, we try to map the results with the Singapore subzones and planning areas to see which area with the highest suitability.</p>
 </section>
 </section>
-<section id="surface-ir-radiance" class="level2">
-<h2 class="anchored" data-anchor-id="surface-ir-radiance">Surface Ir-radiance</h2>
+<section id="surface-ir-radiance-1" class="level2">
+<h2 class="anchored" data-anchor-id="surface-ir-radiance-1">Surface Ir-radiance</h2>
 </section>
 <section id="property-prices" class="level2">
 <h2 class="anchored" data-anchor-id="property-prices">Property Prices</h2>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
-</section>
 </section>
 <section id="power-electricity-grid-flow" class="level2">
 <h2 class="anchored" data-anchor-id="power-electricity-grid-flow">Power Electricity Grid Flow</h2>
@@ -503,8 +501,6 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Optimize Solar Panel Placement for Peak Performance - Sunbase. (2024, June 27). Sunbasedata.com. <a href="https://www.sunbasedata.com/blog/maximize-your-sun-power-a-guide-to-optimizing-solar-panel-placement-for-peak-performance" class="uri">https://www.sunbasedata.com/blog/maximize-your-sun-power-a-guide-to-optimizing-solar-panel-placement-for-peak-performance</a></p></li>
 <li><p>SunSave. (2025, February 25). <em>Sunsave</em>. Sunsave.energy. <a href="https://www.sunsave.energy/solar-panels-advice/installation/north-vs-south-facing" class="uri">https://www.sunsave.energy/solar-panels-advice/installation/north-vs-south-facing</a></p></li>
-<li><p>‌</p>
-<p>‌</p></li>
 </ul>
 
 
@@ -593,6 +589,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -703,6 +701,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
