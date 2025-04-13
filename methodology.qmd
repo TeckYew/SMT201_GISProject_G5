@@ -101,3 +101,11 @@ Property prices are a key economic factor influencing the feasibility of solar f
 # Final Site Selection
 
 With all the factors considered, we decided that the most suitable location for a potential solar farm would be in **Lim Chu Kang.**
+
+We then performed further analysis of the isolated Lim Chu Kang subzone to seek out suitable locations *within* Lim Chu Kang. Factors that were considered were land suitability, proximity to roads, proximity to buildings, and landuse types.
+
+For land suitability, the same topography method was employed, but on the area of Lim Chu Kang. Proximity to roads was considered as it would be a crucial factor in construction of solar fams, in terms of transportation of construction materials. We also analysed proximity between buildings so to identify areas with large enough open spaces that could house a solar farm.
+
+Lastly, for landuse types, we identified that Open Spaces and Agricultural Spaces were the best types of land to host a solar farm on. Open Spaces are available land spaces that are not being used to anything else, and would therefore have the lowest barrier to building a solar farm. Agricultural Lands often contain huge areas of land that are directly exposed to the sun, making them highly suitable spaces as well. For these reasons, landuse analysis was also employed to narrow down the area.
+
+Ultimately, the northern area of Lim Chu Kang, **Sungei Buloh**, was chosen as the most optimal location for a potential solar farm in Singapore.
