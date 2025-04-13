@@ -20,7 +20,11 @@ To select Lim Chu Kang as the specific study area for solar panel installation, 
 
 Aspect is derived from the data of DEM of Singapore. The below is the results of aspect of the entire Singapore.
 
-With this, we decide to conduct suitability ranking of the aspect data. The following is the ranking we follow:
+![](images/clipboard-1935138647.png){width="448"}
+
+From the above map, it is hard to tell than which specific area has a good aspect to install solar panels.
+
+Therefore, to better understand the aspect in singapore, we decide to conduct suitability ranking of the aspect data. It may helps us understand which area has a more concentration of good aspect. The following is the ranking we follow:
 
 | **Rank** | **Aspect Range (°)** | **Direction** | **Suitability Rationale** |
 |------------------|------------------|------------------|------------------|
@@ -34,9 +38,15 @@ With this, we decide to conduct suitability ranking of the aspect data. The foll
 | 1 | 337.5 \< value ≤ 360 | North (Part 1) | Least suitable (60–70%) due to indirect sun |
 |  | 0 \< value ≤ 22.5 | North (Part 2) |  |
 
+Here is the results of the aspect suitability in Singapore.
+
+![](images/aspect_sg_suitability.png){width="421"}
+
 ## Slope
 
 Slope is also derived from the data of DEM of Singapore. The below is the results of slope of the entire Singapore.
+
+![](images/slope_sg.png)
 
 With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:
 
