@@ -1,5 +1,5 @@
 ---
-title: "SOLAR FARM SUITABILITY ASSESSMENT OF LIM CHU KANG"
+title: "Solar Farm Suitability Assessment OF Lim Chu Kang"
 ---
 
 ## Introduction
@@ -58,14 +58,24 @@ This project will primarily focus on **solar farm site suitability analysis** us
 
 ## References
 
--   <https://www.straitstimes.com/singapore/singapore-food-agency-unveils-options-to-boost-output-under-lim-chu-kang-master-plan>
--   <https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/>
--   <https://www.sunollo.com/blog/singapores-solar-future-government-policies-sustainability-goals-and-smes-going-solar>
--   <https://news.nus.edu.sg/nus-study-singapore-is-on-track-to-meet-solar-energy-goals/>
--   <https://www.weforum.org/stories/2021/04/singapore-solar-floatting-farms-environment-energy-cities/>
--   chrome-[extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bipv.sg/wp-content/uploads/2019/11/1-s2.0-S0360544218323107-main.pdf](extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bipv.sg/wp-content/uploads/2019/11/1-s2.0-S0360544218323107-main.pdf)
--   <https://www.channelnewsasia.com/commentary/singapore-indonesia-floating-solar-farm-batam-clean-energy-electricity-4737861>
--   chrome-[extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nccs.gov.sg/files/docs/default-source/default-document-library/solar-photovoltaic-roadmap-for-singapore-a-summary.pdf](extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nccs.gov.sg/files/docs/default-source/default-document-library/solar-photovoltaic-roadmap-for-singapore-a-summary.pdf)
--   <https://www.jtc.gov.sg/get-help/managing-your-tenancy-or-lease/solar-deployment>
--   <https://www.ema.gov.sg/consumer-information/solar/solar-irradiance-map>
--   <https://www.ncs.co/en-sg/knowledge-centre/articles/smart-at-scale-a-sustainable-approach-to-urban-development/>
+-   Tan, C. (2024, November 14). *Singapore Food Agency unveils options to boost output under Lim Chu Kang masterplan*. The Straits Times. <https://www.straitstimes.com/singapore/singapore-food-agency-unveils-options-to-boost-output-under-lim-chu-kang-master-plan>
+
+-   *Impact of climate change in Singapore*. National Climate Change Secretariat. (n.d.). <https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/>
+
+-   *Singapore’s solar future: Policies, goals, and smes going solar*. RSS. (n.d.). <https://www.sunollo.com/blog/singapores-solar-future-government-policies-sustainability-goals-and-smes-going-solar>
+
+-   National University of Singapore. (2024, November 11). NUS study: Singapore is on track to meet its 2030 solar energy goals. <https://news.nus.edu.sg/nus-study-singapore-is-on-track-to-meet-solar-energy-goals/>
+
+-   *Lessons from Singapore: How to generate solar power in a city without much space*. World Economic Forum. (n.d.). <https://www.weforum.org/stories/2021/04/singapore-solar-floatting-farms-environment-energy-cities/>
+
+-   Lu, Y., Chang, R., Shabunko, V., Yee, A. (2018, November 23).[chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bipv.sg/wp-content/uploads/2019/11/1-s2.0-S0360544218323107-main.pdf](extension://efaidnbmnnnibpcajpcglclefindmkaj/https://bipv.sg/wp-content/uploads/2019/11/1-s2.0-S0360544218323107-main.pdf)
+
+-   Huebner, S. (n.d.). *Commentary: Floating solar farms may be key to Singapore’s Clean Energy Future*. CNA. <https://www.channelnewsasia.com/commentary/singapore-indonesia-floating-solar-farm-batam-clean-energy-electricity-4737861>
+
+-   Solar Energy Research Institute of Singapore. (n.d.). <chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nccs.gov.sg/files/docs/default-source/default-document-library/solar-photovoltaic-roadmap-for-singapore-a-summary.pdf>
+
+-   *Solar deployment*. JTC. (n.d.). <https://www.jtc.gov.sg/get-help/managing-your-tenancy-or-lease/solar-deployment>
+
+-   *Home*. EMA. (n.d.). <https://www.ema.gov.sg/consumer-information/solar/solar-irradiance-map>
+
+-   *Smart at Scale - A Sustainable Approach to Urban Development: NCS SG*. Smart at scale - A sustainable approach to urban development \| NCS SG. (n.d.). <https://www.ncs.co/en-sg/knowledge-centre/articles/smart-at-scale-a-sustainable-approach-to-urban-development/>
