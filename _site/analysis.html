@@ -136,9 +136,13 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#factorial-analysis-results" id="toc-factorial-analysis-results" class="nav-link active" data-scroll-target="#factorial-analysis-results">Factorial Analysis Results</a>
   <ul class="collapse">
-  <li><a href="#aspect" id="toc-aspect" class="nav-link" data-scroll-target="#aspect">Aspect</a></li>
+  <li><a href="#aspect" id="toc-aspect" class="nav-link" data-scroll-target="#aspect">Aspect:</a></li>
   <li><a href="#slope" id="toc-slope" class="nav-link" data-scroll-target="#slope">Slope</a></li>
   <li><a href="#hillshade" id="toc-hillshade" class="nav-link" data-scroll-target="#hillshade">Hillshade</a></li>
+  <li><a href="#final-suitability" id="toc-final-suitability" class="nav-link" data-scroll-target="#final-suitability">Final Suitability:</a>
+  <ul class="collapse">
+  <li><a href="#reclassify-final-suitability" id="toc-reclassify-final-suitability" class="nav-link" data-scroll-target="#reclassify-final-suitability">Reclassify final suitability</a></li>
+  </ul></li>
   <li><a href="#surface-ir-radiance" id="toc-surface-ir-radiance" class="nav-link" data-scroll-target="#surface-ir-radiance">Surface Ir-radiance</a></li>
   <li><a href="#property-prices" id="toc-property-prices" class="nav-link" data-scroll-target="#property-prices">Property Prices</a>
   <ul class="collapse">
@@ -146,6 +150,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#power-electricity-grid-flow" id="toc-power-electricity-grid-flow" class="nav-link" data-scroll-target="#power-electricity-grid-flow">Power Electricity Grid Flow</a></li>
   </ul></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference:</a></li>
   </ul>
 </nav>
     </div>
@@ -174,40 +179,311 @@ ul.task-list li input[type="checkbox"] {
 <section id="factorial-analysis-results" class="level1">
 <h1>Factorial Analysis Results</h1>
 <p>To select Lim Chu Kang as the specific study area for solar panel installation, we considered six critical factors. Each factor plays a unique role in determining the suitability of the area for solar energy deployment. Below is an explanation of each factor and why it was chosen:</p>
-<ol type="1">
-<li>Aspect:
-<ul>
-<li>Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore’s equatorial position.</li>
-</ul></li>
-<li>Slope:
-<ul>
-<li>Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (&lt;10°) are ideal for solar panels as they allow proper installation angles without structural challenges.</li>
-</ul></li>
-<li>Hillshade:
-<ul>
-<li>Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions.</li>
-</ul></li>
-<li>Surface Ir-radiance:
-<ul>
-<li>Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential.</li>
-</ul></li>
-<li>Property Prices
-<ul>
-<li>Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable.</li>
-</ul></li>
-<li>Power Electricity Grid Flow:
-<ul>
-<li>Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs.</li>
-</ul></li>
-</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Factors</strong></th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Aspect</strong></td>
+<td>Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore’s equatorial position.</td>
+</tr>
+<tr class="even">
+<td><strong>Slope</strong></td>
+<td>Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (&lt;10°) are ideal for solar panels as they allow proper installation angles without structural challenges.</td>
+</tr>
+<tr class="odd">
+<td><strong>Hillshade</strong></td>
+<td>Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions.</td>
+</tr>
+<tr class="even">
+<td><strong>Surface Ir-radiance</strong></td>
+<td>Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential.</td>
+</tr>
+<tr class="odd">
+<td><strong>Property Prices</strong></td>
+<td>Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable</td>
+</tr>
+<tr class="even">
+<td><strong>Power Electricity Grid Flow</strong></td>
+<td>Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <section id="aspect" class="level2">
-<h2 class="anchored" data-anchor-id="aspect">Aspect</h2>
+<h2 class="anchored" data-anchor-id="aspect">Aspect:</h2>
+<p>Aspect is derived 5from the data of DEM of Singapore. The below is the results of aspect of the entire Singapore.</p>
+<p>With this, we decide to conduct suitability ranking of the aspect data. The following is the ranking we follow:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 31%">
+<col style="width: 25%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Rank</strong></th>
+<th><strong>Aspect Range (°)</strong></th>
+<th><strong>Direction</strong></th>
+<th><strong>Suitability Rationale</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5</td>
+<td>157.5 &lt; value ≤ 202.5</td>
+<td>True South ±22.5°</td>
+<td>Optimal for equatorial solar exposure</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>112.5 &lt; value ≤ 157.5</td>
+<td>Southeast</td>
+<td>95–98% efficiency due to morning sun</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>202.5 &lt; value ≤ 247.5</td>
+<td>Southwest</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>67.5 &lt; value ≤ 112.5</td>
+<td>East</td>
+<td>Moderate efficiency (85–90%)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>247.5 &lt; value ≤ 292.5</td>
+<td>West</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>22.5 &lt; value ≤ 67.5</td>
+<td>Northeast</td>
+<td>Lower efficiency (75–80%)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>292.5 &lt; value ≤ 337.5</td>
+<td>Northwest</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>337.5 &lt; value ≤ 360</td>
+<td>North (Part 1)</td>
+<td>Least suitable (60–70%) due to indirect sun</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>0 &lt; value ≤ 22.5</td>
+<td>North (Part 2)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="slope" class="level2">
 <h2 class="anchored" data-anchor-id="slope">Slope</h2>
+<p>Slope is also derived from the data of DEM of Singapore. The below is the results of slope of the entire Singapore.</p>
+<p>With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 20%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Rank</strong></th>
+<th><strong>Slope Range (°)</strong></th>
+<th><strong>Suitability</strong></th>
+<th><strong>Key Considerations</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5</td>
+<td>0 ≤ slope &lt; 5</td>
+<td>Most Suitable</td>
+<td>Ideal for solar panels; allows optimal tilt (10–15°) without structural adjustments.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>5 ≤ slope &lt; 10</td>
+<td>Highly Suitable</td>
+<td>Slight adjustments needed to achieve optimal tilt; still efficient for installations.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>10 ≤ slope &lt; 20</td>
+<td>Moderately Suitable</td>
+<td>Requires mounting adjustments to avoid exceeding tilt limits; some efficiency loss.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>20 ≤ slope &lt; 30</td>
+<td>Less Suitable</td>
+<td>Steeper slopes require significant structural modifications and risk shading issues.</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>30 ≤ slope ≤ 49.152</td>
+<td>Unsuitable</td>
+<td>Very steep slopes hinder installation, reduce energy output, and increase maintenance costs.</td>
+</tr>
+</tbody>
+</table>
+<p>With the above results, we</p>
 </section>
 <section id="hillshade" class="level2">
 <h2 class="anchored" data-anchor-id="hillshade">Hillshade</h2>
+<p>Hillshare is also derived from the data of DEM of Singapore. The below is the results of hillshade of the entire Singapore.</p>
+<p>With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 28%">
+<col style="width: 28%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Rank</strong></th>
+<th><strong>Hillshade Range</strong></th>
+<th><strong>Suitability</strong></th>
+<th><strong>Rationale</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5</td>
+<td>200 ≤ hillshade ≤ 255</td>
+<td>Most Suitable</td>
+<td>Maximum illumination; ideal for solar panels.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>150 ≤ hillshade &lt; 200</td>
+<td>Highly Suitable</td>
+<td>Good sunlight exposure; minor shading.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>100 ≤ hillshade &lt; 150</td>
+<td>Moderately Suitable</td>
+<td>Partial shading; reduced energy efficiency.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>50 ≤ hillshade &lt; 100</td>
+<td>Less Suitable</td>
+<td>Significant shading; limited solar potential.</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>0 ≤ hillshade &lt; 50</td>
+<td>Unsuitable</td>
+<td>Heavy shading; not viable for solar panels.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="final-suitability" class="level2">
+<h2 class="anchored" data-anchor-id="final-suitability">Final Suitability:</h2>
+<p>Based on Singapore’s equatorial conditions and solar energy guidelines (<a href="https://www1.bca.gov.sg/">BCA</a>, <a href="https://www.seris.nus.edu.sg/">SERIS</a>), use the following weights:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 30%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Factor</strong></th>
+<th><strong>Weight</strong></th>
+<th><strong>Rationale</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Slope</strong></td>
+<td>50%</td>
+<td>Most critical – steep slopes (&gt;15°) are structurally challenging.</td>
+</tr>
+<tr class="even">
+<td><strong>Aspect</strong></td>
+<td>30%</td>
+<td>South-facing aspects optimize energy capture in equatorial regions.</td>
+</tr>
+<tr class="odd">
+<td><strong>Hillshade</strong></td>
+<td>20%</td>
+<td>Ensures minimal shading for consistent energy production.</td>
+</tr>
+</tbody>
+</table>
+<section id="reclassify-final-suitability" class="level3">
+<h3 class="anchored" data-anchor-id="reclassify-final-suitability">Reclassify final suitability</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 27%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Final Score Range</strong></th>
+<th><strong>Suitability Class</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4.5 – 5.0</td>
+<td>5 (Most Suitable)</td>
+<td>Optimal slope, south-facing, minimal shading.</td>
+</tr>
+<tr class="even">
+<td>3.5 – 4.5</td>
+<td>4</td>
+<td>Highly suitable with minor trade-offs.</td>
+</tr>
+<tr class="odd">
+<td>2.5 – 3.5</td>
+<td>3</td>
+<td>Moderate suitability; requires adjustments.</td>
+</tr>
+<tr class="even">
+<td>1.5 – 2.5</td>
+<td>2</td>
+<td>Less suitable; significant limitations.</td>
+</tr>
+<tr class="odd">
+<td>0.0 – 1.5</td>
+<td>1 (Unsuitable)</td>
+<td>Steep slopes, north-facing, or heavy shading.</td>
+</tr>
+</tbody>
+</table>
+<p>Next, we try to map the results with the Singapore subzones and planning areas to see which area with the highest suitability.</p>
+</section>
 </section>
 <section id="surface-ir-radiance" class="level2">
 <h2 class="anchored" data-anchor-id="surface-ir-radiance">Surface Ir-radiance</h2>
@@ -220,9 +496,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="power-electricity-grid-flow" class="level2">
 <h2 class="anchored" data-anchor-id="power-electricity-grid-flow">Power Electricity Grid Flow</h2>
-
-
 </section>
+</section>
+<section id="reference" class="level1">
+<h1>Reference:</h1>
+<ul>
+<li><p>Optimize Solar Panel Placement for Peak Performance - Sunbase. (2024, June 27). Sunbasedata.com. <a href="https://www.sunbasedata.com/blog/maximize-your-sun-power-a-guide-to-optimizing-solar-panel-placement-for-peak-performance" class="uri">https://www.sunbasedata.com/blog/maximize-your-sun-power-a-guide-to-optimizing-solar-panel-placement-for-peak-performance</a></p></li>
+<li><p>SunSave. (2025, February 25). <em>Sunsave</em>. Sunsave.energy. <a href="https://www.sunsave.energy/solar-panels-advice/installation/north-vs-south-facing" class="uri">https://www.sunsave.energy/solar-panels-advice/installation/north-vs-south-facing</a></p></li>
+<li><p>‌</p>
+<p>‌</p></li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->

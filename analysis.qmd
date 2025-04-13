@@ -2,33 +2,108 @@
 title: "RESULT & DISCUSSION"
 ---
 
-# Factorial Analysis Results
+#Factorial Analysis Results
 
 To select Lim Chu Kang as the specific study area for solar panel installation, we considered six critical factors. Each factor plays a unique role in determining the suitability of the area for solar energy deployment. Below is an explanation of each factor and why it was chosen:
 
-1.  Aspect:
-    -   Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore's equatorial position.
-2.  Slope:
-    -   Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (\<10°) are ideal for solar panels as they allow proper installation angles without structural challenges.
-3.  Hillshade:
-    -   Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions.
-4.  Surface Ir-radiance:
-    -   Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential.
-5.  Property Prices
-    -   Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable.
-6.  Power Electricity Grid Flow:
-    -   Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs.
+| **Factors** | Explanation |
+|----|----|
+| **Aspect** | Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore's equatorial position. |
+| **Slope** | Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (\<10°) are ideal for solar panels as they allow proper installation angles without structural challenges. |
+| **Hillshade** | Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions. |
+| **Surface Ir-radiance** | Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential. |
+| **Property Prices** | Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable |
+| **Power Electricity Grid Flow** | Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs. |
+|  |  |
 
-## Aspect
+
+## Aspect: 
+
+Aspect is derived 5from the data of DEM of Singapore. The below is the results of aspect of the entire Singapore.
+
+With this, we decide to conduct suitability ranking of the aspect data. The following is the ranking we follow:
+
+| **Rank** | **Aspect Range (°)** | **Direction** | **Suitability Rationale** |
+|---------|-----------------------|-------------------|-----------------------|
+| 5 | 157.5 \< value ≤ 202.5 | True South ±22.5° | Optimal for equatorial solar exposure |
+| 4 | 112.5 \< value ≤ 157.5 | Southeast | 95–98% efficiency due to morning sun |
+|  | 202.5 \< value ≤ 247.5 | Southwest |  |
+| 3 | 67.5 \< value ≤ 112.5 | East | Moderate efficiency (85–90%) |
+|  | 247.5 \< value ≤ 292.5 | West |  |
+| 2 | 22.5 \< value ≤ 67.5 | Northeast | Lower efficiency (75–80%) |
+|  | 292.5 \< value ≤ 337.5 | Northwest |  |
+| 1 | 337.5 \< value ≤ 360 | North (Part 1) | Least suitable (60–70%) due to indirect sun |
+|  | 0 \< value ≤ 22.5 | North (Part 2) |  |
+
 
 ## Slope
 
+Slope is also derived from the data of DEM of Singapore. The below is the results of slope of the entire Singapore.
+
+With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:
+
+| **Rank** | **Slope Range (°)** | **Suitability** | **Key Considerations** |
+|---------|---------------|------------------------|------------------------|
+| 5 | 0 ≤ slope \< 5 | Most Suitable | Ideal for solar panels; allows optimal tilt (10–15°) without structural adjustments. |
+| 4 | 5 ≤ slope \< 10 | Highly Suitable | Slight adjustments needed to achieve optimal tilt; still efficient for installations. |
+| 3 | 10 ≤ slope \< 20 | Moderately Suitable | Requires mounting adjustments to avoid exceeding tilt limits; some efficiency loss. |
+| 2 | 20 ≤ slope \< 30 | Less Suitable | Steeper slopes require significant structural modifications and risk shading issues. |
+| 1 | 30 ≤ slope ≤ 49.152 | Unsuitable | Very steep slopes hinder installation, reduce energy output, and increase maintenance costs. |
+
+With the above results, we
+
 ## Hillshade
+
 
 ## Surface Ir-radiance
 
+Hillshare is also derived from the data of DEM of Singapore. The below is the results of hillshade of the entire Singapore.
+
+With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:
+
+| **Rank** | **Hillshade Range** | **Suitability** | **Rationale** |
+|----------|---------------------|---------------------|---------------------|
+| 5 | 200 ≤ hillshade ≤ 255 | Most Suitable | Maximum illumination; ideal for solar panels. |
+| 4 | 150 ≤ hillshade \< 200 | Highly Suitable | Good sunlight exposure; minor shading. |
+| 3 | 100 ≤ hillshade \< 150 | Moderately Suitable | Partial shading; reduced energy efficiency. |
+| 2 | 50 ≤ hillshade \< 100 | Less Suitable | Significant shading; limited solar potential. |
+| 1 | 0 ≤ hillshade \< 50 | Unsuitable | Heavy shading; not viable for solar panels. |
+
+## Final Suitability: 
+
+Based on Singapore’s equatorial conditions and solar energy guidelines ([BCA](https://www1.bca.gov.sg/), [SERIS](https://www.seris.nus.edu.sg/)), use the following weights:
+
+| **Factor** | **Weight** | **Rationale** |
+|----------------|----------------------|-----------------------------------|
+| **Slope** | 50% | Most critical – steep slopes (\>15°) are structurally challenging. |
+| **Aspect** | 30% | South-facing aspects optimize energy capture in equatorial regions. |
+| **Hillshade** | 20% | Ensures minimal shading for consistent energy production. |
+
+### Reclassify final suitability 
+
+| **Final Score Range** | **Suitability Class** | **Description** |
+|---------------------|--------------------|--------------------------------|
+| 4.5 – 5.0 | 5 (Most Suitable) | Optimal slope, south-facing, minimal shading. |
+| 3.5 – 4.5 | 4 | Highly suitable with minor trade-offs. |
+| 2.5 – 3.5 | 3 | Moderate suitability; requires adjustments. |
+| 1.5 – 2.5 | 2 | Less suitable; significant limitations. |
+| 0.0 – 1.5 | 1 (Unsuitable) | Steep slopes, north-facing, or heavy shading. |
+
+Next, we try to map the results with the Singapore subzones and planning areas to see which area with the highest suitability.
+
+## Surface Ir-radiance 
+
+
 ## Property Prices
 
-### 
 
-## Power Electricity Grid Flow
+
+
+## Power Electricity Grid Flow 
+
+# Reference: 
+
+-   Optimize Solar Panel Placement for Peak Performance - Sunbase. (2024, June 27). Sunbasedata.com. <https://www.sunbasedata.com/blog/maximize-your-sun-power-a-guide-to-optimizing-solar-panel-placement-for-peak-performance>
+
+-   SunSave. (2025, February 25). *Sunsave*. Sunsave.energy. <https://www.sunsave.energy/solar-panels-advice/installation/north-vs-south-facing>
+
