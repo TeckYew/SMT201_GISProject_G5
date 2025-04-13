@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,12 +181,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>This project is part of SMT201: Geographical information Systems for Urban Planning module, headed by Professor Kam Tin Seong under Singapore Management University, School of Computing and Information Systems. We are given 2 themes to choose from, mainly analysis of farms or land cover change detection. We have decided to go with the first theme: the Application of GIS-based Multi-criteria Analysis for solar farm suitability assessment.</p>
 <hr>
-<p>WIth the growing rate of climate change in many countries, including Singapore, there is a need for the installation of more solar panels. Singapore’s limited land resources have posed significant challenges in the country’s pursuit of sustainable energy solutions. As a highly urbanized city-state, Singapore faces immense pressure to balance land use for residential, commercial, industrial, and green spaces. With an increasing demand for public housing, particularly Build-To-Order (BTO) flats, more land has been allocated to residential development, intensifying the challenge of integrating renewable energy solutions such as solar panels.</p>
-<p>The installation of solar panels requires substantial space, which is scarce in Singapore due to competing land-use priorities. Given the limited availability of open land, rooftop solar installations have become the primary approach for harnessing solar energy. However, even rooftop installations face constraints due to structural limitations, shading from surrounding high-rise buildings, and the need to allocate space for essential utilities and communal facilities.</p>
-<p>Additionally, Singapore’s tropical climate presents challenges such as high humidity and cloud cover, which can reduce the efficiency of solar panels. The frequent need for maintenance and cleaning further adds to the complexity of widespread solar adoption. Despite these challenges, the motivation for expanding solar energy usage remains strong, driven by the country’s commitment to sustainability and reducing its reliance on fossil fuels.</p>
-<p>In this project, we aim to analyse the land cover changes of Singapore from 2019 to 2024 through the use of remote sensing data, satellite imagery and image processing techniques. Specifically, we focus on maximizing solar panel placement on existing infrastructure, such as high-rise rooftops, reservoirs, and even vertical surfaces.</p>
-<p>Through geospatial analysis, satellite imagery, and computational modeling, we assess potential locations for increased solar adoption while minimizing land-use conflicts. By identifying underutilized spaces and implementing smart energy management systems, our project seeks to contribute to Singapore’s long-term goal of achieving 2 gigawatt-peak (GWp) of solar deployment by 2030. After finding the factors involved in solar farms deployment, we will select the best location for analysis, taking that area as our research ground for uncovering insights into suitability for solar farms. From there, future works will involve using the same techniques for the rest of the sub-zones in Singapore to analyse if they are suitable for solar farm installations as well.</p>
-<p>With a comprehensive analysis of land availability, solar potential, and emerging technologies, our study provides insights into overcoming the spatial and environmental challenges of solar energy adoption in Singapore. Through strategic planning and innovative solutions, we aim to support the nation’s transition toward a more sustainable and resilient energy future.</p>
+<p>With the accelerating impact of climate change, including in Singapore, there is an urgent need to expand solar energy adoption. However, Singapore’s limited land resources pose significant challenges in the pursuit of sustainable energy solutions. As a densely populated city-state, land use must be carefully balanced between residential, commercial, industrial, and green space demands. The growing demand for public housing, especially Build-To-Order (BTO) flats, further strains land availability, making large-scale solar installations difficult.</p>
+<p>Given these constraints, rooftop solar panels have become the primary strategy for solar adoption. Yet, even rooftops face limitations due to shading from surrounding buildings, structural capacity, cloud cover, and the need to reserve space for communal or utility functions.</p>
+<p>Our project aims to explore alternatives by analyzing land cover changes in Singapore from 2019 to 2024 using remote sensing data, satellite imagery, and image processing techniques. The analysis highlights Lim Chu Kang as a key area of interest due to its land characteristics and upcoming transformation under the 2030 Master Plan into a sustainable sub-zone. This includes plans for integrating solar panels in greenhouses and exploring innovative land use like underground farming to guard against rising sea levels.</p>
+<p>We focus on optimizing solar panel placement on existing infrastructure such as rooftops, reservoirs, and vertical surfaces. Through geospatial analysis and computational modeling, we identify underutilized spaces and evaluate their solar potential while minimizing land-use conflicts.</p>
+<p>By selecting the most promising location, our study lays the groundwork for broader implementation across other subzones in Singapore. Our approach contributes to the national goal of achieving 2 gigawatt-peak (GWp) of solar deployment by 2030.</p>
+<p>This research offers insights into how Singapore can overcome spatial and environmental constraints through strategic planning, smart energy systems, and innovative design. By combining emerging technologies with geospatial intelligence, we support the nation’s transition to a more sustainable and resilient energy future.</p>
 
 
 
@@ -273,8 +273,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -385,7 +383,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
