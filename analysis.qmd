@@ -1,3 +1,34 @@
 ---
 title: "RESULT & DISCUSSION"
 ---
+
+# Factorial Analysis Results 
+
+To select Lim Chu Kang as the specific study area for solar panel installation, we considered six critical factors. Each factor plays a unique role in determining the suitability of the area for solar energy deployment. Below is an explanation of each factor and why it was chosen:
+
+1.  Aspect:
+    -   Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore's equatorial position.
+2.  Slope:
+    -   Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (\<10°) are ideal for solar panels as they allow proper installation angles without structural challenges.
+3.  Hillshade:
+    -   Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions.
+4.  Surface Ir-radiance:
+    -   Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential.
+5.  Property Prices
+    -   Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable.
+6.  Power Electricity Grid Flow:
+    -   Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs.
+
+## Aspect 
+
+## Slope 
+
+## Hillshade
+
+## Surface Ir-radiance 
+
+## Property Prices 
+
+### 
+
+## Power Electricity Grid Flow 
