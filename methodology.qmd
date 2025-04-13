@@ -4,14 +4,14 @@ title: "METHODOLOGY"
 
 # Overview
 
-![](images/Screenshot 2025-04-13 121555.png){fig-align="center"}
+![](images/Screenshot%202025-04-13%20121555.png){fig-align="center"}
 
 The chart above shows the overall process that our team employed in our project. In this page, we will go through each of these phases into further detail.
 
 # Data Collection
 
-# MADM Topography Analysis 
+# MADM Topography Analysis
 
-# Area Feasibility Analysis 
+# Area Feasibility Analysis
 
 # Final Site Selection
