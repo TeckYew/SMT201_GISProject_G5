@@ -1,3 +1,22 @@
 ---
 title: "Deep Dive into Lim Chu Kang"
 ---
+
+In the Overview Analysis in Singapore, we found that Lim Chu Kang is topped as the first choice of solar farm in Singapore. To further analyse which site in Lum Chu Kang is suitable for solar farm, we will look into these criteria:
+
+1.  Aspect
+2.  Slope
+3.  Hillshade
+4.  Building Proximity within the area
+5.  Roads Proximity within the area
+6.  Current Land use planning in the area
+
+For the factors of aspect, slope and hillshade, as these factors are considered as landform factors. We will conduct a final suitability test base on the 3 factors.
+
+Now, let's take a look of each of the factor first:
+
+## Aspect 
+
+![](images/aspect_limchukang.png)
+
+From this, we can see that the aspect suitability
