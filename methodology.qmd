@@ -50,6 +50,17 @@ Data was collected from various sources to be used in the different analyses. Na
 
 # MADM Feasibility Topography Analysis
 
+To select Lim Chu Kang as the specific study area for solar panel installation, we considered six critical factors. Each factor plays a unique role in determining the suitability of the area for solar energy deployment. Below is an explanation of each factor and why it was chosen:
+
+| Factors | Explanation |
+|------------------------------------|------------------------------------|
+| **Aspect** | Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore's equatorial position. |
+| **Slope** | Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (\<10°) are ideal for solar panels as they allow proper installation angles without structural challenges. |
+| **Hillshade** | Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions. |
+| **Surface Ir-radiance** | Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential. |
+| **Property Prices** | Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable |
+| **Power Electricity Grid Flow** | Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs. |
+
 ## Power Grid Electricity Flow
 
 The Power Grid Electricity Flow map illustrates electricity transmission from power grids across Singapore, with grid locations highlighted in red. Notably, the central region exhibits denser and more interconnected electrical flow, indicating high infrastructure activity. However, this area is also heavily populated with properties and transport networks—represented by the blue and red points—leaving limited space for solar farm installations. In contrast, areas toward the western region, including Lim Chu Kang, show less development and extended (but lower) grid density, suggesting greater potential for solar farm deployment due to the availability of open land and fewer competing land-use demands.
@@ -65,7 +76,7 @@ Prediction Of Worldwide Energy Resources (POWER) is a project that seeks to prov
 The parameters for the API Call are as summarised below:
 
 | **Parameter** | **Description** |
-|----|----|
+|------------------------------------|------------------------------------|
 | `parameters` | The climate or solar parameter to retrieve (only one allowed per request) |
 | `community` | Defines the user community and data context |
 | `latitude-min` | Minimum latitude of the bounding box |
