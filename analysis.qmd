@@ -92,7 +92,7 @@ Here is the hillshade suitability in Singapore:
 
 ![](images/hillshade_suitability.png)
 
-## Final Suitability:
+## Final Suitability
 
 Based on Singapore’s equatorial conditions and solar energy guidelines ([BCA](https://www1.bca.gov.sg/), [SERIS](https://www.seris.nus.edu.sg/)), use the following weights:
 
@@ -258,7 +258,7 @@ In the results above, the darker areas represent areas with larger amount of sun
 
 ## Power Electricity Grid Flow
 
-# Reference:
+# Reference
 
 -   Optimize Solar Panel Placement for Peak Performance - Sunbase. (2024, June 27). Sunbasedata.com. <https://www.sunbasedata.com/blog/maximize-your-sun-power-a-guide-to-optimizing-solar-panel-placement-for-peak-performance>
 
