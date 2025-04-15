@@ -12,7 +12,11 @@ website:
       - text: METHODOLOGY
         href: "methodology.html"
       - text: RESULT & DISCUSSION
-        href: "analysis.html"
+        menu:
+        - text: Overall Analysis in Singapore
+          href: "analysis.html"
+        - text: Deep Dive into Lim Chu Kang 
+          href: "limchukang.html"
       - text: LESSON LEARNED
         href: "lesson.html"
       - text: POSTER

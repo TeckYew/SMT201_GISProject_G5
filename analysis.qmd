@@ -1,5 +1,5 @@
 ---
-title: "RESULT & DISCUSSION"
+title: "Overal Analysis in Singapore"
 ---
 
 # Factorial Analysis Results
@@ -36,7 +36,7 @@ Therefore, to better understand the aspect in singapore, we decide to conduct su
 |              | 0 \< value ≤ 22.5      | North (Part 2)    |                                             |
 +--------------+------------------------+-------------------+---------------------------------------------+
 
-Here is the results of the aspect suitability in Singapore.
+Here is the results of the aspect suitability in Singapore:
 
 ![](images/aspect_sg_suitability-01.png)
 
