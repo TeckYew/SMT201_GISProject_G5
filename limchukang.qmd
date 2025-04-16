@@ -47,4 +47,13 @@ To decide on which specific site to install solar farm, we will select areas of 
 
 ![](images/top_suitability_lck.png)
 
-From the above image,
+Base on the final suitability score, we can come up with a few selection on site that we can dive into:
+
+| No. | Site | Explanation |
+|--------------|-----------------------------|------------------------------|
+| 1 | Sungei Buloh Wetland Reserve |  |
+| 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |
+| 3 | Southern and Western Edges | Area is more sparse |
+| 4 |  |  |
+
+![](images/clipboard-1761206069.png)
