@@ -64,4 +64,11 @@ Base on the final suitability score, we can come up with a few selection on site
 
 To investigate each of the site, these factors are being considered:
 
-## Land Use 
+| Site | Land Use | Building Proximity | Road Proximity | Explanation |
+|----|----|----|----|----|
+| 1: Sungei Buloh Wetland Reserve | Waterbody |  |  |  |
+| 2: Eastern Lim Chu Kang | Utitlity |  |  |  |
+| 3: Southern and Western Edges | Open Space |  |  |  |
+| 4: Southern and Western Edges | Open Space |  |  |  |
+
+![](images/clipboard-2793767153.png){width="419"}
