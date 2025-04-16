@@ -37,23 +37,31 @@ Hillshade is a visual representation of terrain based on light and shadow, simul
 
 From the above map, we can see that most of Lim Chu Kang shows light orange to white, indicating good exposure to sunlight. Some small dark red zones may be in shadow (e.g. valleys or behind elevation changes). Overall, terrain shading is not a major concern, which is good news for solar feasibility.
 
-## Final Suitability of land form features: Aspect, Slope, Hillshade 
+# Final Suitability of land form features: Aspect, Slope, Hillshade 
 
 ![](images/final_suitability_lck.png)
 
-From the above image, we can tell that the Lim Chu Kang
+From the above image, we can tell that the Lim Chu Kang are generally in high suitability score. However, this is insufficient to decide which specific site is good for installing solar farm.
 
-To decide on which specific site to install solar farm, we will select areas of that are within the top 20% suitability score.
+Therefore, we decide to scope down the area for selection by selecting areas of that are within the top 20% suitability score.
+
+Here is the results:
 
 ![](images/top_suitability_lck.png)
 
-Base on the final suitability score, we can come up with a few selection on site that we can dive into:
+Base on the final suitability score, we can come up with a few selection on site that we can dive into: (ranking is not relevant)
 
-| No. | Site | Explanation |
-|--------------|-----------------------------|------------------------------|
-| 1 | Sungei Buloh Wetland Reserve |  |
-| 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |
-| 3 | Southern and Western Edges | Area is more sparse |
-| 4 |  |  |
+| No. | Site | Explanation |   |
+|-------------|-----------------------------|-----------------------------|--|
+| 1 | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body |  |
+| 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |  |
+| 3 | Southern and Western Edges | Area is sparse |  |
+| 4 | Southern and Western Edges | Area is sparse |  |
 
 ![](images/clipboard-1761206069.png)
+
+# Site Selection
+
+To investigate each of the site, these factors are being considered:
+
+## Land Use 
