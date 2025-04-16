@@ -17,6 +17,34 @@ Now, let's take a look of each of the factor first:
 
 ## Aspect 
 
+Aspect refers to the compass direction a slope faces. In solar energy planning, **south-facing slopes** are typically the most optimal in the northern hemisphere. For Singapore (near the equator), **flat or slightly south-facing areas** receive the most consistent sunlight throughout the year.
+
 ![](images/aspect_limchukang.png)
 
-From this, we can see that the aspect suitability
+From the above map, we can see that the aspect suitability. Much of Lim Chu Kang appears to be in lighter red to white zones, which means moderate to high suitability. The northern and central areas show a mix of white and pale red, suggesting optimal solar exposure. A few dark red patches (unsuitable aspect) are scattered, especially along edges—these may face away from the sun or be steeply sloped.
+
+## Slope
+
+![](images/slope_lck.png)
+
+From the above map, we can see that the central and majority of the interior of Lim Chu Kang, which are classified as class 5 (white), are the most suitable for solar panel deployment. These areas offer expansive, contiguous flat land ideal for efficient and cost-effective installation.
+
+## Hillshade
+
+Hillshade is a visual representation of terrain based on light and shadow, simulating sunlight at a specific angle. In suitability analysis, it reflects **how much sun an area actually receives**, considering elevation and shading from terrain.
+
+![](images/hillshade_lck.png)
+
+From the above map, we can see that most of Lim Chu Kang shows light orange to white, indicating good exposure to sunlight. Some small dark red zones may be in shadow (e.g. valleys or behind elevation changes). Overall, terrain shading is not a major concern, which is good news for solar feasibility.
+
+## Final Suitability of land form features: Aspect, Slope, Hillshade 
+
+![](images/final_suitability_lck.png)
+
+From the above image, we can tell that the Lim Chu Kang
+
+To decide on which specific site to install solar farm, we will select areas of that are within the top 20% suitability score.
+
+![](images/top_suitability_lck.png)
+
+From the above image,
