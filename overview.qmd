@@ -25,28 +25,9 @@ Our project's main objectives are as follow:
 1.  Visualize and analyse installation of solar panel changes in landmaps across Singapore from 2019 to 2024
 2.  Identify impact of solar farm installation change in Lim Chu Kang and provide recommendations for future plans
 
-## Data
-
-For the purpose of this project, we will be using various land-form and satellite data. The data is taken from [Data Gov](https://data.gov.sg/) and [Earth Explorer USGS](https://earthexplorer.usgs.gov/) websites. The table below will show the sources of the files that we have used for our analysis.
-
-For the Land Form data taken from Data.Gov website:
-
-| File Name | Description | Source |
-|------------------------|------------------------|------------------------|
-| Land Use 2019 | Provides the map layer for Singapore. | <https://data.gov.sg/datasets?query=land+use+2019&page=1&resultId=d_90d86daa5bfaa371668b84fa5f01424f> |
-| Property Prices | The prices for properties in Singapore. Only 2023 and 2024 will be used for the purpose of the project. | <https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view> |
-| Derived map of global electricity transmission and distribution lines | Electricity transmission of power grids occurring in Singapore. | <https://energydata.info/dataset/derived-map-global-electricity-transmission-and-distribution-lines> |
-|  |  |  |
-
-For the Earth Explorer USGS site:
-
-| File Name | Description | Source |
-|-----------|-------------|--------|
-|           |             |        |
-|           |             |        |
-|           |             |        |
-
 ## **Project Study Area**
+
+The main project study area conducted for this project will be on Lim Chu Kang based on primary research and analysis done using Multi-Criteria analysis. The steps provided in the overall analysis for Singapore will break down on how we proceeded to focus on Lim Chu Kang.
 
 ## Scope of Work
 

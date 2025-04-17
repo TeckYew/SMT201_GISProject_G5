@@ -38,28 +38,61 @@ The chart above shows the overall process that our team employed in our project.
 
 # Data Collection/ Preparation
 
-Data was collected from various sources to be used in the different analyses. Namely, they are:
+Data was collected from various sources to be used in the different analyses. For the purpose of this project, we will be using various land-form and satellite data. The data is taken from [Data Gov](https://data.gov.sg/) and NASA website. The table below will show the sources of the files that we have used for our analysis.
 
--   Data.gov.sg:
+For the Land Form data taken from Data.Gov website:
 
-    -   [Master Plan 2019 Subzone Boundary (No Sea) (KML)](https://data.gov.sg/datasets?query=2019+subzone+masterplan&resultId=d_0900fdcfdb4666fe2a630f37a532fc06&page=1): Subzone Boundary Layer of Singapore for Master Plan 2019
++-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| File Name                                                             | Description                                                                                             | Source                                                                                                                                                                |
++=======================================================================+=========================================================================================================+=======================================================================================================================================================================+
+| Layers of Singapore for Master Plan 2019                              | Provides the map layer for Singapore.                                                                   | <https://data.gov.sg/datasets?query=land+use+2019&page=1&resultId=d_90d86daa5bfaa371668b84fa5f01424f>                                                                 |
+|                                                                       |                                                                                                         |                                                                                                                                                                       |
+|                                                                       |                                                                                                         | -   [Master Plan 2019 Subzone Boundary (No Sea) (KML)](https://data.gov.sg/datasets?query=2019+subzone+masterplan&resultId=d_0900fdcfdb4666fe2a630f37a532fc06&page=1) |
+|                                                                       |                                                                                                         |                                                                                                                                                                       |
+|                                                                       |                                                                                                         | -   [Amendment to Master Plan 2019 Land Use layer](https://data.gov.sg/datasets?query=landuse+2019&page=1&resultId=d_f8adc7bd980dd15861c83ff370a72eaa)                |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Bulding, Transport, Road                                              | For building, transports and road data layer                                                            | <https://download.geofabrik.de/asia/malaysia-singapore-brunei.html>                                                                                                   |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Property Prices                                                       | The prices for properties in Singapore. Only 2023 and 2024 will be used for the purpose of the project. | <https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view>                                                                                                |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Derived map of global electricity transmission and distribution lines | Electricity transmission of power grids occurring in Singapore.                                         | <https://energydata.info/dataset/derived-map-global-electricity-transmission-and-distribution-lines>                                                                  |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                       |                                                                                                         |                                                                                                                                                                       |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-        -   [Amendment to Master Plan 2019 Land Use layer](https://data.gov.sg/datasets?query=landuse+2019&page=1&resultId=d_f8adc7bd980dd15861c83ff370a72eaa): Landuse Layer for Master Plan 2019
+For the API site:
 
--   [NASA POWER Monthly and Annual API](https://power.larc.nasa.gov/api/pages/?urls.primaryName=Monthly+%26+Annual): This API was used to retrieve surface irradiance data for Singapore.
++---------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+------------------------------------------------------------------------------+
+| File Name                                                                                                           | Description                                                              | Source                                                                       |
++=====================================================================================================================+==========================================================================+==============================================================================+
+| -   [NASA POWER Monthly and Annual API](https://power.larc.nasa.gov/api/pages/?urls.primaryName=Monthly+%26+Annual) | -   This API was used to retrieve surface irradiance data for Singapore. | <https://power.larc.nasa.gov/api/pages/?urls.primaryName=Monthly+%26+Annual> |
++---------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+------------------------------------------------------------------------------+
+|                                                                                                                     |                                                                          |                                                                              |
++---------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+------------------------------------------------------------------------------+
+|                                                                                                                     |                                                                          |                                                                              |
++---------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+------------------------------------------------------------------------------+
+
+## 
 
 # MADM Feasibility Topography Analysis
 
 To select Lim Chu Kang as the specific study area for solar panel installation, we considered six critical factors. Each factor plays a unique role in determining the suitability of the area for solar energy deployment. Below is an explanation of each factor and why it was chosen:
 
-| Factors | Explanation |
-|----|----|
-| **Aspect** | Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore's equatorial position. |
-| **Slope** | Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (\<10°) are ideal for solar panels as they allow proper installation angles without structural challenges. |
-| **Hillshade** | Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions. |
-| **Surface Ir-radiance** | Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential. |
-| **Property Prices** | Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable |
-| **Power Electricity Grid Flow** | Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs. |
++----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Factors                          | Explanation                                                                                                                                                                                                                                                             |
++==================================+=========================================================================================================================================================================================================================================================================+
+| **Aspect**                       | Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore's equatorial position. |
++----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Slope**                        | Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (\<10°) are ideal for solar panels as they allow proper installation angles without structural challenges.                                                                  |
++----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Hillshade**                    | Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions.                                                                                                            |
++----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Surface Ir-radiance**          | Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential.                                                                        |
++----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Property Prices**              | Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable                                                                                         |
++----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Power Electricity Grid Flow**  | Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs.                                                                                                                                           |
++----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Power Grid Electricity Flow
 
@@ -75,17 +108,27 @@ Prediction Of Worldwide Energy Resources (POWER) is a project that seeks to prov
 
 The parameters for the API Call are as summarised below:
 
-| **Parameter** | **Description** |
-|----|----|
-| `parameters` | The climate or solar parameter to retrieve (only one allowed per request) |
-| `community` | Defines the user community and data context |
-| `latitude-min` | Minimum latitude of the bounding box |
-| `latitude-max` | Maximum latitude of the bounding box |
-| `longitude-min` | Minimum longitude of the bounding box |
-| `longitude-max` | Maximum longitude of the bounding box |
-| `start` | Start year of the data request |
-| `end` | End year of the data request |
-| `format` | Output file format |
++----------------------------------+---------------------------------------------------------------------------+
+| **Parameter**                    | **Description**                                                           |
++==================================+===========================================================================+
+| `parameters`                     | The climate or solar parameter to retrieve (only one allowed per request) |
++----------------------------------+---------------------------------------------------------------------------+
+| `community`                      | Defines the user community and data context                               |
++----------------------------------+---------------------------------------------------------------------------+
+| `latitude-min`                   | Minimum latitude of the bounding box                                      |
++----------------------------------+---------------------------------------------------------------------------+
+| `latitude-max`                   | Maximum latitude of the bounding box                                      |
++----------------------------------+---------------------------------------------------------------------------+
+| `longitude-min`                  | Minimum longitude of the bounding box                                     |
++----------------------------------+---------------------------------------------------------------------------+
+| `longitude-max`                  | Maximum longitude of the bounding box                                     |
++----------------------------------+---------------------------------------------------------------------------+
+| `start`                          | Start year of the data request                                            |
++----------------------------------+---------------------------------------------------------------------------+
+| `end`                            | End year of the data request                                              |
++----------------------------------+---------------------------------------------------------------------------+
+| `format`                         | Output file format                                                        |
++----------------------------------+---------------------------------------------------------------------------+
 
 The API Call that was used to retrieve the data was therefore:
 
