@@ -51,12 +51,17 @@ Here is the results:
 
 Base on the final suitability score, we can come up with a few selection on site that we can dive into: (ranking is not relevant)
 
-| No. | Site | Explanation |   |
-|-------------|-----------------------|-----------------------|-------------|
-| 1 | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body |  |
-| 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |  |
-| 3 | Southern and Western Edges | Area is sparse |  |
-| 4 | Southern and Western Edges | Area is sparse |  |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+| No.       | Site                         | Explanation                                                                                                                    |           |
++===========+==============================+================================================================================================================================+===========+
+| 1         | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body                                                     |           |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+| 2         | Eastern Lim Chu Kang         | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |           |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+| 3         | Southern and Western Edges   | Area is sparse                                                                                                                 |           |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+| 4         | Southern and Western Edges   | Area is sparse                                                                                                                 |           |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
 
 ![](images/clipboard-1761206069.png)
 
@@ -75,9 +80,31 @@ To investigate each of the site, these factors are being considered:
 
 ## Building Proximity within the area
 
-Will continue on this
+Lim Chu Kang is an area that generally has limited commercial buildings and military facilities. We want to explore how these spaces can help us identify potential areas for solar farms based on the space constraints in the different areas of Lim Chu Kang identified.
 
-![](images/property1.png)
+![](images/building.png)
+
+Due to Singapore's space constraint, if Lim Chu Kang were to be re-purposed for solar farm, about 20 to 25 acres land area will be required to install the solar farm on land itself, assuming that 1 megawatt of solar energy usually require 4 to 5 acres of land.
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **1: Sungei Buloh Wetland Reserve**                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Size: Approximately 130 hectares (about 321 acres)                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Comparison: A 20 to 25 acre solar farm would cover roughly 6-8% of the reserve's area. Space constraints as seen in the map is more than sufficient for installation of solar farm in that area represented by a dark blue point signifying adequate space for landspace with some buildings occupying that area.                                         |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **2: Eastern Lim Chu Kang**                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Size: Approximately 17.3 square kilometers (1,730 hectares or about 4,274 acres).                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Comparison: A 20–25 acre solar farm would occupy about 0.5–0.6% of the entire planning area. Huge landspace with highest potential for solar farm with the darkest blue point representing most landspace.                                                                                                                                                |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **3: Southern and Western Edges**                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Details: These areas are part of the broader Lim Chu Kang region, which includes various land uses such as agriculture, military training areas, and nature reserves. Specific size data for these subregions isn't readily available, but given the total area of Lim Chu Kang, a 20–25 acre solar farm would represent a small fraction of these edges. |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Space constraints as seen in the map is sufficient for installation of solar farm in that area represented by a dark blue point signifying adequate space for landspace with some buildings occupying that area.                                                                                                                                          |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Roads Proximity within the area
 
@@ -86,3 +113,5 @@ Will continue on this
 ![](images/road.png)
 
 ## Current Land Use planning in the area
+
+References:
