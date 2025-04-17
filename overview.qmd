@@ -1,5 +1,5 @@
 ---
-title: "Solar Farm Suitability Assessment OF Lim Chu Kang"
+title: "Solar Farm Suitability Assessment Of Lim Chu Kang"
 ---
 
 ## Introduction
@@ -32,7 +32,7 @@ For the purpose of this project, we will be using various land-form and satellit
 For the Land Form data taken from Data.Gov website:
 
 | File Name | Description | Source |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Land Use 2019 | Provides the map layer for Singapore. | <https://data.gov.sg/datasets?query=land+use+2019&page=1&resultId=d_90d86daa5bfaa371668b84fa5f01424f> |
 | Property Prices | The prices for properties in Singapore. Only 2023 and 2024 will be used for the purpose of the project. | <https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view> |
 | Derived map of global electricity transmission and distribution lines | Electricity transmission of power grids occurring in Singapore. | <https://energydata.info/dataset/derived-map-global-electricity-transmission-and-distribution-lines> |

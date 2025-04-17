@@ -113,6 +113,8 @@ Road proximity serve as an informatics for development and installation of solar
 
 ![](images/road.png)
 
+will add more specific sites soon
+
 ## Current Land Use planning in the area
 
 ## **References:**
