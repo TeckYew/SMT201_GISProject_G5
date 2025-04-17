@@ -71,10 +71,10 @@ To investigate each of the site, these factors are being considered:
 
 | Site | Land Use | Building Proximity | Road Proximity | Explanation |
 |----|----|----|----|----|
-| 1: Sungei Buloh Wetland Reserve | Waterbody |  |  |  |
-| 2: Eastern Lim Chu Kang | Utitlity |  |  |  |
-| 3: Southern and Western Edges | Open Space |  |  |  |
-| 4: Southern and Western Edges | Open Space |  |  |  |
+| 1: Sungei Buloh Wetland Reserve | Waterbody | 230m-369m | \<100m |  |
+| 2: Eastern Lim Chu Kang | Utitlity | 369m-530m | 100-200m |  |
+| 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |  |
+| 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |  |
 
 ![](images/clipboard-2793767153.png){width="419"}
 
