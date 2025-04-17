@@ -15,7 +15,7 @@ From the above map, it is hard to tell than which specific area has a good aspec
 Therefore, to better understand the aspect in singapore, we decide to conduct suitability ranking of the aspect data. It may helps us understand which area has a more concentration of good aspect. The following is the ranking we follow:
 
 | **Rank** | **Aspect Range (°)** | **Direction** | **Suitability Rationale** |
-|---------------|---------------|---------------|---------------------------|
+|----|----|----|----|
 | 5 | 157.5 \< value ≤ 202.5 | True South ±22.5° | Optimal for equatorial solar exposure |
 | 4 | 112.5 \< value ≤ 157.5 | Southeast | 95–98% efficiency due to morning sun |
 |  | 202.5 \< value ≤ 247.5 | Southwest |  |
@@ -39,7 +39,7 @@ Slope is also derived from the data of DEM of Singapore. The below is the result
 With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:
 
 | **Rank** | **Slope Range (°)** | **Suitability** | **Key Considerations** |
-|------------|------------|------------|------------------------------------|
+|----|----|----|----|
 | 5 | 0 ≤ slope \< 5 | Most Suitable | Ideal for solar panels; allows optimal tilt (10–15°) without structural adjustments. |
 | 4 | 5 ≤ slope \< 10 | Highly Suitable | Slight adjustments needed to achieve optimal tilt; still efficient for installations. |
 | 3 | 10 ≤ slope \< 20 | Moderately Suitable | Requires mounting adjustments to avoid exceeding tilt limits; some efficiency loss. |
@@ -59,7 +59,7 @@ Hillshare is also derived from the data of DEM of Singapore. The below is the re
 With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:
 
 | **Rank** | **Hillshade Range** | **Suitability** | **Rationale** |
-|---------------|---------------|---------------|--------------------------|
+|----|----|----|----|
 | 5 | 200 ≤ hillshade ≤ 255 | Most Suitable | Maximum illumination; ideal for solar panels. |
 | 4 | 150 ≤ hillshade \< 200 | Highly Suitable | Good sunlight exposure; minor shading. |
 | 3 | 100 ≤ hillshade \< 150 | Moderately Suitable | Partial shading; reduced energy efficiency. |
@@ -75,7 +75,7 @@ Here is the hillshade suitability in Singapore:
 Based on Singapore’s equatorial conditions and solar energy guidelines ([BCA](https://www1.bca.gov.sg/), [SERIS](https://www.seris.nus.edu.sg/)), use the following weights:
 
 | **Factor** | **Weight** | **Rationale** |
-|----------------|----------------|----------------------------------------|
+|----|----|----|
 | **Slope** | 50% | Most critical – steep slopes (\>15°) are structurally challenging. |
 | **Aspect** | 30% | South-facing aspects optimize energy capture in equatorial regions. |
 | **Hillshade** | 20% | Ensures minimal shading for consistent energy production. |
@@ -83,7 +83,7 @@ Based on Singapore’s equatorial conditions and solar energy guidelines ([BCA](
 ### Reclassify final suitability
 
 | **Final Score Range** | **Suitability Class** | **Description** |
-|------------------|------------------|-----------------------------------|
+|----|----|----|
 | 4.5 – 5.0 | 5 (Most Suitable) | Optimal slope, south-facing, minimal shading. |
 | 3.5 – 4.5 | 4 | Highly suitable with minor trade-offs. |
 | 2.5 – 3.5 | 3 | Moderate suitability; requires adjustments. |

@@ -51,17 +51,17 @@ Here is the results:
 
 Base on the final suitability score, we can come up with a few selection on site that we can dive into: (ranking is not relevant)
 
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
-| No.       | Site                         | Explanation                                                                                                                    |           |
-+===========+==============================+================================================================================================================================+===========+
-| 1         | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body                                                     |           |
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 2         | Eastern Lim Chu Kang         | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |           |
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 3         | Southern and Western Edges   | Area is sparse                                                                                                                 |           |
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 4         | Southern and Western Edges   | Area is sparse                                                                                                                 |           |
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
++--------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------+
+| No.    | Site                         | Explanation                                                                                                                    |        |
++========+==============================+================================================================================================================================+========+
+| 1      | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body                                                     |        |
++--------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------+
+| 2      | Eastern Lim Chu Kang         | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |        |
++--------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------+
+| 3      | Southern and Western Edges   | Area is sparse                                                                                                                 |        |
++--------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------+
+| 4      | Southern and Western Edges   | Area is sparse                                                                                                                 |        |
++--------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------+
 
 ![](images/clipboard-1761206069.png)
 
@@ -116,6 +116,10 @@ Road proximity serve as an informatics for development and installation of solar
 will add more specific sites soon
 
 ## Current Land Use planning in the area
+
+![](images/clipboard-905322990.png)
+
+We also mapped out the current Landuse in Lim Chu Kangto identify the areas which can be used for a potential Solar Farm, and which areas have to be avoided (e.g Reserve Sites, Military Use).
 
 ## **References:**
 
