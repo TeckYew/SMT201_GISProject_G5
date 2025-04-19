@@ -121,7 +121,11 @@ Based on the 3 different sites considered for the road accessibility based on th
 
 ## Current Land Use planning in the area
 
-# Conclusion 
+![](images/Screenshot 2025-04-17 183034.png)
+
+We also mapped out the current Landuse in Lim Chu Kang to identify the areas which can be used for a potential Solar Farm, and which areas have to be avoided (e.g Reserve Sites, Military). From the Figure above, we can see that the dark purple (open spaces) and light blue (Parks) cover majority of Lim Chu Kang and can be used for potential solar farms.
+
+# Conclusion
 
 ## Optimal Solar Panel Installation Sites in Lim Chu Kang
 
@@ -151,7 +155,7 @@ Site 2 has the greatest distance from existing buildings (369m-530m) among all o
 
 -   It can reduce potential conflicts with existing building uses.
 
-###  **Infrastructure Access**
+### **Infrastructure Access**
 
 Although Site 2 is slightly further from the roads compared to other sites, the distance is still practical:
 
@@ -159,7 +163,7 @@ Although Site 2 is slightly further from the roads compared to other sites, the 
 
 -   Sufficient proximity to enable grid connection without excessive transmission infrastructure
 
-### Why Other Sites are less suitable: 
+### Why Other Sites are less suitable:
 
 [**Site 1 ((Sungei Buloh Wetland Reserve):**]{.underline}
 
