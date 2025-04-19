@@ -51,12 +51,17 @@ Here is the results:
 
 Base on the final suitability score, we can come up with a few selection on site that we can dive into: (ranking is not relevant)
 
-| No. | Site | Explanation |
-|----|----|----|
-| 1 | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body |
-| 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |
-| 3 | Southern and Western Edges | Area is sparse |
-| 4 | Southern and Western Edges | Area is sparse |
++----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| No.      | Site                         | Explanation                                                                                                                    |
++==========+==============================+================================================================================================================================+
+| 1        | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body                                                     |
++----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| 2        | Eastern Lim Chu Kang         | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |
++----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| 3        | Southern and Western Edges   | Area is sparse                                                                                                                 |
++----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| 4        | Southern and Western Edges   | Area is sparse                                                                                                                 |
++----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 
 ![](images/clipboard-1761206069.png)
 
@@ -71,7 +76,7 @@ To investigate each of the site, these factors are being considered:
 | 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |
 | 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |
 
-![](images/clipboard-2793767153.png){width="419"}
+![](images/clipboard-1855345637.png)
 
 ## Building Proximity within the area
 
