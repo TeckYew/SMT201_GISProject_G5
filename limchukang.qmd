@@ -51,12 +51,26 @@ Here is the results:
 
 Base on the final suitability score, we can come up with a few selection on site that we can dive into: (ranking is not relevant)
 
+<<<<<<< HEAD
 | No. | Site | Explanation |   |
 |-------------|-----------------------|-----------------------|-------------|
 | 1 | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body |  |
 | 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |  |
 | 3 | Southern and Western Edges | Area is sparse |  |
 | 4 | Southern and Western Edges | Area is sparse |  |
+=======
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+| No.       | Site                         | Explanation                                                                                                                    |           |
++===========+==============================+================================================================================================================================+===========+
+| 1         | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body                                                     |           |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+| 2         | Eastern Lim Chu Kang         | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |           |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+| 3         | Southern and Western Edges   | Area is sparse                                                                                                                 |           |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+| 4         | Southern and Western Edges   | Area is sparse                                                                                                                 |           |
++-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
+>>>>>>> 3838b7d5bbf74b19b8c349d18eb633a7c8bb0de0
 
 ![](images/clipboard-1761206069.png)
 
@@ -64,9 +78,69 @@ Base on the final suitability score, we can come up with a few selection on site
 
 To investigate each of the site, these factors are being considered:
 
+<<<<<<< HEAD
 | Site                            | Land Use   |
 |---------------------------------|------------|
 | 1: Sungei Buloh Wetland Reserve | Waterbody  |
 | 2: Eastern Lim Chu Kang         | Utitlity   |
 | 3: Southern and Western Edges   | Open Space |
 | 4: Southern and Western Edges   | Open Space |
+=======
+| Site | Land Use | Building Proximity | Road Proximity | Explanation |
+|----|----|----|----|----|
+| 1: Sungei Buloh Wetland Reserve | Waterbody | 230m-369m | \<100m |  |
+| 2: Eastern Lim Chu Kang | Utitlity | 369m-530m | 100-200m |  |
+| 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |  |
+| 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |  |
+
+![](images/clipboard-2793767153.png){width="419"}
+
+## Building Proximity within the area
+
+Lim Chu Kang is an area that generally has limited commercial buildings and military facilities. We want to explore how these spaces can help us identify potential areas for solar farms based on the space constraints in the different areas of Lim Chu Kang identified.
+
+![](images/building.png)
+
+Due to Singapore's space constraint, if Lim Chu Kang were to be re-purposed for solar farm, about 20 to 25 acres land area will be required to install the solar farm on land itself, assuming that 1 megawatt of solar energy usually require 4 to 5 acres of land.
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **1: Sungei Buloh Wetland Reserve**                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Size: Approximately 130 hectares (about 321 acres)                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Comparison: A 20 to 25 acre solar farm would cover roughly 6-8% of the reserve's area. Space constraints as seen in the map is more than sufficient for installation of solar farm in that area represented by a dark blue point signifying adequate space for landspace with some buildings occupying that area.                                         |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **2: Eastern Lim Chu Kang**                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Size: Approximately 17.3 square kilometers (1,730 hectares or about 4,274 acres).                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Comparison: A 20–25 acre solar farm would occupy about 0.5–0.6% of the entire planning area. Huge landspace with highest potential for solar farm with the darkest blue point representing most landspace.                                                                                                                                                |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **3: Southern and Western Edges**                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Details: These areas are part of the broader Lim Chu Kang region, which includes various land uses such as agriculture, military training areas, and nature reserves. Specific size data for these subregions isn't readily available, but given the total area of Lim Chu Kang, a 20–25 acre solar farm would represent a small fraction of these edges. |
+|                                                                                                                                                                                                                                                                                                                                                           |
+| Space constraints as seen in the map is sufficient for installation of solar farm in that area represented by a dark blue point signifying adequate space for landspace with some buildings occupying that area.                                                                                                                                          |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Roads Proximity within the area
+
+Road proximity serve as an informatics for development and installation of solar farms during the construction phase. The darker areas in red represent the most suitable areas that are closer to the roads whereas the lighter reds represent areas further away from the roads. This is done by using the acccessibility factor of:\
+\<=100m = 5, 100-200m = 4, 200-300m = 3, 300-500m = 2, \>500m = 1 from roads. This will help us rank the suitability for solar farm installation using road proximity as a factor for economical savings.
+
+![](images/road.png){width="514"}
+
+Based on the 3 different sites considered for the road accessibility based on the darker red colored areas for Lim Chu Kang, we can see that the distance from the roads are mostly \<100 meter, considering the output values to be mutually exclusive with min and max, reflecting the cut-off values. These areas area the most suitable for solar farms due to its accessibility to roads and space constraints (e.g., free from buildings).
+
+![](images/road-parts.png){width="512"}
+
+## Current Land Use planning in the area
+
+## **References:**
+
+Wikimedia Foundation. (2024, January 23). *Nature reserves in Singapore*. Wikipedia. <http://en.wikipedia.org/wiki/Nature_reserves_in_Singapore>
+
+*Lim Chu Kang*. SgWiki. (n.d.). <https://sgwiki.com/wiki/Lim_Chu_Kang>
+
+*Lim Chu Kang urban agriculture district*. Sasaki. (n.d.). <https://www.sasaki.com/projects/lim-chu-kang-urban-agriculture-district>
+>>>>>>> 3838b7d5bbf74b19b8c349d18eb633a7c8bb0de0

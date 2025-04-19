@@ -168,7 +168,19 @@ In the results above, the darker areas represent areas with larger amount of sun
 
 ## Property Prices
 
+In light of economic factor, property prices differ in different areas of Singapore. Property prices represent the range of price values in different regions of Singapore based on the various properties bought in that area.
+
+![](images/clipboard-1009697565.png){width="551"}
+
+As observed, the central area highlights more expensive area of Singapore. This can be seen with Nassim Road area represented by the darker blue area, highlighting that area, along with Toa Payoh region, as the most expensive area. Orchard Road has a relatively high price interpolation. Generally, lower cost price of properties are preferred to incur lesser costs for maintenance and installation of solar panels due to economical concern. Hence, those with lighter blues are preferred.
+
 ## Power Electricity Grid Flow
+
+Power transmission flow of power grids have been illustrated by the graph shown.
+
+![](images/clipboard-3728189377.png)
+
+Costs of installing solar panels are high, and it is crucial to look out for prime electricity transmission through power grids in Singapore. The red lines signify electricity transmission in Singapore, and the little point dots signify the properties and transportation sites in Singapore. As observed, points in the South area are mostly cluttered and in huge quantity, hence making it hard to have solar panels around that area due to the lack of space. It is wise to have solar panels installed at areas with more empty spaces (little to none point dots) whilst having electricity transmission at that area. In this case, Lim Chu Kang, the stretch along Bukit Timah road and Upper Thomson road are better land areas for cheaper cost of powering solar panels.
 
 # Reference
 
