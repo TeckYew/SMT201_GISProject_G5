@@ -71,7 +71,7 @@ To investigate each of the site, these factors are being considered:
 
 | Site | Land Use | Building Proximity | Road Proximity |
 |----|----|----|----|
-| 1: Sungei Buloh Wetland Reserve | Waterbody | 230m-369m | \<100m |
+| 1: Sungei Buloh Wetland Reserve | Park | 230m-369m | \<100m |
 | 2: Eastern Lim Chu Kang | Utitlity | 369m-530m | 100-200m |
 | 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |
 | 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |
@@ -121,10 +121,68 @@ Based on the 3 different sites considered for the road accessibility based on th
 
 # Conclusion 
 
-## **References:**
+## Optimal Solar Panel Installation Sites in Lim Chu Kang
 
-Wikimedia Foundation. (2024, January 23). *Nature reserves in Singapore*. Wikipedia. <http://en.wikipedia.org/wiki/Nature_reserves_in_Singapore>
+Based on the detailed site analysis and considering Singapore's unique constraints for renewable energy deployment, we recommend Site 2: Eastern Lim Chu Kang as the best option for large-scale solar panel installation. Here's our comprehensive justification for this selection:
 
-*Lim Chu Kang*. SgWiki. (n.d.). <https://sgwiki.com/wiki/Lim_Chu_Kang>
+### Land Use Suitability
 
-*Lim Chu Kang urban agriculture district*. Sasaki. (n.d.). <https://www.sasaki.com/projects/lim-chu-kang-urban-agriculture-district>
+Site 2 is classified as "Utility" land, which makes it perfect for our solar project because:
+
+-   It avoids the environmental problems we'd face at Site 1 (which is a protected Wetland Reserve).
+
+-   The "Utility" designation means the land is already meant for infrastructure projects. This enhance the feasibility of using the site for installation of solar panels.
+
+### **Spatial Characteristics**
+
+The satellite image shows Site 2 features a large, contiguous open area with what appears to be cleared land with minial vegetation:
+
+-   The expansive area allows for economies of scale in installation and maintenance.
+
+-   The site appears to have less dense vegetation, comparing to site 3 and 4. It helps reducing clearing costs and environmental impact.
+
+### **Building Proximity**
+
+Site 2 has the greatest distance from existing buildings (369m-530m) among all options:
+
+-   It can reduce the shading effects of buildings and hence increase the efficiency of the solar panels.
+
+-   It can reduce potential conflicts with existing building uses.
+
+###  **Infrastructure Access**
+
+Although Site 2 is slightly further from the roads compared to other sites, the distance is still practical:
+
+-   Close enough for efficient construction access and maintenance
+
+-   Sufficient proximity to enable grid connection without excessive transmission infrastructure
+
+### Why Other Sites are less suitable: 
+
+[**Site 1 ((Sungei Buloh Wetland Reserve):**]{.underline}
+
+Despite good accessibility (\<100m to roads), its designation as a waterbody in a nature reserve creates significant environmental concerns. Wetland reserves may have strict ecological protections that would conflict with large-scale solar development. In addition, despite floating solar is an option in Singapore, environmentally sensitive waterbodies may not be an ideal location with environmental restrictions.
+
+[**Site 3 & 4 (Southern & Western Edges):**]{.underline}
+
+Site 3 and 4 are smaller than Site 2 so the amount of solar panels will not be as many as Site 2. In addition, they are closed to buildings like Animal Plant & Health Centre, Sungei Gedong Medical Centre, etc. Proximity to buildings might increase shading effect as well. Installing solar panels next to the plot of land might not be the most ideal situation, reducing the efficiency in deployment.
+
+### Implementation Recommendation
+
+As the land use for Site 2 is considered as "Utility", the government might change utilize the land for other usages in the future. To prepare for the possible changes in land use, we recommend this:
+
+-   Deploy a mobile design similar to SL2 at Changi Business Park that allows for future redeployment if land use changes
+
+-   Install Tier-1 solar panels to maximize the efficiency of solar panels and the generation power
+
+# References:
+
+Wikimedia Foundation. (2024, January 23). Nature reserves in Singapore. Wikipedia. <http://en.wikipedia.org/wiki/Nature_reserves_in_Singapore>
+
+Lim Chu Kang. SgWiki. (n.d.). <https://sgwiki.com/wiki/Lim_Chu_Kang>
+
+Lim *Chu Kang urban agriculture district*. Sasaki. (n.d.). <https://www.sasaki.com/projects/lim-chu-kang-urban-agriculture-district>
+
+SERIS. (2020). *Update of the Solar Roadmap for Singapore*. <https://www.seris.nus.edu.sg/wp-content/uploads/2023/07/Update-of-the-Solar-Roadmap-for-Singapore-March-2020.pdf>
+
+‌*TE SolarLand 2 – Singapore’s largest ground-mounted utility-scale solar farm*. (2020). Tesl2.Energy. <https://tesl2.energy/>
