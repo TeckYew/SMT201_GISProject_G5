@@ -51,26 +51,12 @@ Here is the results:
 
 Base on the final suitability score, we can come up with a few selection on site that we can dive into: (ranking is not relevant)
 
-<<<<<<< HEAD
-| No. | Site | Explanation |   |
-|-------------|-----------------------|-----------------------|-------------|
-| 1 | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body |  |
-| 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |  |
-| 3 | Southern and Western Edges | Area is sparse |  |
-| 4 | Southern and Western Edges | Area is sparse |  |
-=======
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
-| No.       | Site                         | Explanation                                                                                                                    |           |
-+===========+==============================+================================================================================================================================+===========+
-| 1         | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body                                                     |           |
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 2         | Eastern Lim Chu Kang         | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |           |
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 3         | Southern and Western Edges   | Area is sparse                                                                                                                 |           |
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 4         | Southern and Western Edges   | Area is sparse                                                                                                                 |           |
-+-----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-----------+
->>>>>>> 3838b7d5bbf74b19b8c349d18eb633a7c8bb0de0
+| No. | Site | Explanation |
+|----|----|----|
+| 1 | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body |
+| 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |
+| 3 | Southern and Western Edges | Area is sparse |
+| 4 | Southern and Western Edges | Area is sparse |
 
 ![](images/clipboard-1761206069.png)
 
@@ -78,20 +64,12 @@ Base on the final suitability score, we can come up with a few selection on site
 
 To investigate each of the site, these factors are being considered:
 
-<<<<<<< HEAD
-| Site                            | Land Use   |
-|---------------------------------|------------|
-| 1: Sungei Buloh Wetland Reserve | Waterbody  |
-| 2: Eastern Lim Chu Kang         | Utitlity   |
-| 3: Southern and Western Edges   | Open Space |
-| 4: Southern and Western Edges   | Open Space |
-=======
-| Site | Land Use | Building Proximity | Road Proximity | Explanation |
-|----|----|----|----|----|
-| 1: Sungei Buloh Wetland Reserve | Waterbody | 230m-369m | \<100m |  |
-| 2: Eastern Lim Chu Kang | Utitlity | 369m-530m | 100-200m |  |
-| 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |  |
-| 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |  |
+| Site | Land Use | Building Proximity | Road Proximity |
+|----|----|----|----|
+| 1: Sungei Buloh Wetland Reserve | Waterbody | 230m-369m | \<100m |
+| 2: Eastern Lim Chu Kang | Utitlity | 369m-530m | 100-200m |
+| 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |
+| 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |
 
 ![](images/clipboard-2793767153.png){width="419"}
 
@@ -143,4 +121,3 @@ Wikimedia Foundation. (2024, January 23). *Nature reserves in Singapore*. Wikipe
 *Lim Chu Kang*. SgWiki. (n.d.). <https://sgwiki.com/wiki/Lim_Chu_Kang>
 
 *Lim Chu Kang urban agriculture district*. Sasaki. (n.d.). <https://www.sasaki.com/projects/lim-chu-kang-urban-agriculture-district>
->>>>>>> 3838b7d5bbf74b19b8c349d18eb633a7c8bb0de0
