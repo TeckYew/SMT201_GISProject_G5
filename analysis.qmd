@@ -14,27 +14,17 @@ From the above map, it is hard to tell than which specific area has a good aspec
 
 Therefore, to better understand the aspect in singapore, we decide to conduct suitability ranking of the aspect data. It may helps us understand which area has a more concentration of good aspect. The following is the ranking we follow:
 
-+--------------+------------------------+-------------------+---------------------------------------------+
-| **Rank**     | **Aspect Range (°)**   | **Direction**     | **Suitability Rationale**                   |
-+==============+========================+===================+=============================================+
-| 5            | 157.5 \< value ≤ 202.5 | True South ±22.5° | Optimal for equatorial solar exposure       |
-+--------------+------------------------+-------------------+---------------------------------------------+
-| 4            | 112.5 \< value ≤ 157.5 | Southeast         | 95–98% efficiency due to morning sun        |
-+--------------+------------------------+-------------------+---------------------------------------------+
-|              | 202.5 \< value ≤ 247.5 | Southwest         |                                             |
-+--------------+------------------------+-------------------+---------------------------------------------+
-| 3            | 67.5 \< value ≤ 112.5  | East              | Moderate efficiency (85–90%)                |
-+--------------+------------------------+-------------------+---------------------------------------------+
-|              | 247.5 \< value ≤ 292.5 | West              |                                             |
-+--------------+------------------------+-------------------+---------------------------------------------+
-| 2            | 22.5 \< value ≤ 67.5   | Northeast         | Lower efficiency (75–80%)                   |
-+--------------+------------------------+-------------------+---------------------------------------------+
-|              | 292.5 \< value ≤ 337.5 | Northwest         |                                             |
-+--------------+------------------------+-------------------+---------------------------------------------+
-| 1            | 337.5 \< value ≤ 360   | North (Part 1)    | Least suitable (60–70%) due to indirect sun |
-+--------------+------------------------+-------------------+---------------------------------------------+
-|              | 0 \< value ≤ 22.5      | North (Part 2)    |                                             |
-+--------------+------------------------+-------------------+---------------------------------------------+
+| **Rank** | **Aspect Range (°)** | **Direction** | **Suitability Rationale** |
+|----|----|----|----|
+| 5 | 157.5 \< value ≤ 202.5 | True South ±22.5° | Optimal for equatorial solar exposure |
+| 4 | 112.5 \< value ≤ 157.5 | Southeast | 95–98% efficiency due to morning sun |
+|  | 202.5 \< value ≤ 247.5 | Southwest |  |
+| 3 | 67.5 \< value ≤ 112.5 | East | Moderate efficiency (85–90%) |
+|  | 247.5 \< value ≤ 292.5 | West |  |
+| 2 | 22.5 \< value ≤ 67.5 | Northeast | Lower efficiency (75–80%) |
+|  | 292.5 \< value ≤ 337.5 | Northwest |  |
+| 1 | 337.5 \< value ≤ 360 | North (Part 1) | Least suitable (60–70%) due to indirect sun |
+|  | 0 \< value ≤ 22.5 | North (Part 2) |  |
 
 Here is the results of the aspect suitability in Singapore:
 
@@ -48,19 +38,13 @@ Slope is also derived from the data of DEM of Singapore. The below is the result
 
 With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:
 
-+---------------+---------------------+---------------------+----------------------------------------------------------------------------------------------+
-| **Rank**      | **Slope Range (°)** | **Suitability**     | **Key Considerations**                                                                       |
-+===============+=====================+=====================+==============================================================================================+
-| 5             | 0 ≤ slope \< 5      | Most Suitable       | Ideal for solar panels; allows optimal tilt (10–15°) without structural adjustments.         |
-+---------------+---------------------+---------------------+----------------------------------------------------------------------------------------------+
-| 4             | 5 ≤ slope \< 10     | Highly Suitable     | Slight adjustments needed to achieve optimal tilt; still efficient for installations.        |
-+---------------+---------------------+---------------------+----------------------------------------------------------------------------------------------+
-| 3             | 10 ≤ slope \< 20    | Moderately Suitable | Requires mounting adjustments to avoid exceeding tilt limits; some efficiency loss.          |
-+---------------+---------------------+---------------------+----------------------------------------------------------------------------------------------+
-| 2             | 20 ≤ slope \< 30    | Less Suitable       | Steeper slopes require significant structural modifications and risk shading issues.         |
-+---------------+---------------------+---------------------+----------------------------------------------------------------------------------------------+
-| 1             | 30 ≤ slope ≤ 49.152 | Unsuitable          | Very steep slopes hinder installation, reduce energy output, and increase maintenance costs. |
-+---------------+---------------------+---------------------+----------------------------------------------------------------------------------------------+
+| **Rank** | **Slope Range (°)** | **Suitability** | **Key Considerations** |
+|----|----|----|----|
+| 5 | 0 ≤ slope \< 5 | Most Suitable | Ideal for solar panels; allows optimal tilt (10–15°) without structural adjustments. |
+| 4 | 5 ≤ slope \< 10 | Highly Suitable | Slight adjustments needed to achieve optimal tilt; still efficient for installations. |
+| 3 | 10 ≤ slope \< 20 | Moderately Suitable | Requires mounting adjustments to avoid exceeding tilt limits; some efficiency loss. |
+| 2 | 20 ≤ slope \< 30 | Less Suitable | Steeper slopes require significant structural modifications and risk shading issues. |
+| 1 | 30 ≤ slope ≤ 49.152 | Unsuitable | Very steep slopes hinder installation, reduce energy output, and increase maintenance costs. |
 
 Here is the slope suitability in Singapore:
 
@@ -74,19 +58,13 @@ Hillshare is also derived from the data of DEM of Singapore. The below is the re
 
 With this, we decide to conduct suitability ranking of the slope data. The following is the ranking we follow:
 
-+----------------+------------------------+---------------------+-----------------------------------------------+
-| **Rank**       | **Hillshade Range**    | **Suitability**     | **Rationale**                                 |
-+================+========================+=====================+===============================================+
-| 5              | 200 ≤ hillshade ≤ 255  | Most Suitable       | Maximum illumination; ideal for solar panels. |
-+----------------+------------------------+---------------------+-----------------------------------------------+
-| 4              | 150 ≤ hillshade \< 200 | Highly Suitable     | Good sunlight exposure; minor shading.        |
-+----------------+------------------------+---------------------+-----------------------------------------------+
-| 3              | 100 ≤ hillshade \< 150 | Moderately Suitable | Partial shading; reduced energy efficiency.   |
-+----------------+------------------------+---------------------+-----------------------------------------------+
-| 2              | 50 ≤ hillshade \< 100  | Less Suitable       | Significant shading; limited solar potential. |
-+----------------+------------------------+---------------------+-----------------------------------------------+
-| 1              | 0 ≤ hillshade \< 50    | Unsuitable          | Heavy shading; not viable for solar panels.   |
-+----------------+------------------------+---------------------+-----------------------------------------------+
+| **Rank** | **Hillshade Range** | **Suitability** | **Rationale** |
+|----|----|----|----|
+| 5 | 200 ≤ hillshade ≤ 255 | Most Suitable | Maximum illumination; ideal for solar panels. |
+| 4 | 150 ≤ hillshade \< 200 | Highly Suitable | Good sunlight exposure; minor shading. |
+| 3 | 100 ≤ hillshade \< 150 | Moderately Suitable | Partial shading; reduced energy efficiency. |
+| 2 | 50 ≤ hillshade \< 100 | Less Suitable | Significant shading; limited solar potential. |
+| 1 | 0 ≤ hillshade \< 50 | Unsuitable | Heavy shading; not viable for solar panels. |
 
 Here is the hillshade suitability in Singapore:
 
@@ -96,31 +74,21 @@ Here is the hillshade suitability in Singapore:
 
 Based on Singapore’s equatorial conditions and solar energy guidelines ([BCA](https://www1.bca.gov.sg/), [SERIS](https://www.seris.nus.edu.sg/)), use the following weights:
 
-+----------------------+----------------------+---------------------------------------------------------------------+
-| **Factor**           | **Weight**           | **Rationale**                                                       |
-+======================+======================+=====================================================================+
-| **Slope**            | 50%                  | Most critical – steep slopes (\>15°) are structurally challenging.  |
-+----------------------+----------------------+---------------------------------------------------------------------+
-| **Aspect**           | 30%                  | South-facing aspects optimize energy capture in equatorial regions. |
-+----------------------+----------------------+---------------------------------------------------------------------+
-| **Hillshade**        | 20%                  | Ensures minimal shading for consistent energy production.           |
-+----------------------+----------------------+---------------------------------------------------------------------+
+| **Factor** | **Weight** | **Rationale** |
+|----|----|----|
+| **Slope** | 50% | Most critical – steep slopes (\>15°) are structurally challenging. |
+| **Aspect** | 30% | South-facing aspects optimize energy capture in equatorial regions. |
+| **Hillshade** | 20% | Ensures minimal shading for consistent energy production. |
 
 ### Reclassify final suitability
 
-+-----------------------+-----------------------+-----------------------------------------------+
-| **Final Score Range** | **Suitability Class** | **Description**                               |
-+=======================+=======================+===============================================+
-| 4.5 – 5.0             | 5 (Most Suitable)     | Optimal slope, south-facing, minimal shading. |
-+-----------------------+-----------------------+-----------------------------------------------+
-| 3.5 – 4.5             | 4                     | Highly suitable with minor trade-offs.        |
-+-----------------------+-----------------------+-----------------------------------------------+
-| 2.5 – 3.5             | 3                     | Moderate suitability; requires adjustments.   |
-+-----------------------+-----------------------+-----------------------------------------------+
-| 1.5 – 2.5             | 2                     | Less suitable; significant limitations.       |
-+-----------------------+-----------------------+-----------------------------------------------+
-| 0.0 – 1.5             | 1 (Unsuitable)        | Steep slopes, north-facing, or heavy shading. |
-+-----------------------+-----------------------+-----------------------------------------------+
+| **Final Score Range** | **Suitability Class** | **Description** |
+|----|----|----|
+| 4.5 – 5.0 | 5 (Most Suitable) | Optimal slope, south-facing, minimal shading. |
+| 3.5 – 4.5 | 4 | Highly suitable with minor trade-offs. |
+| 2.5 – 3.5 | 3 | Moderate suitability; requires adjustments. |
+| 1.5 – 2.5 | 2 | Less suitable; significant limitations. |
+| 0.0 – 1.5 | 1 (Unsuitable) | Steep slopes, north-facing, or heavy shading. |
 
 Here are the results of the final suitability in Singapore:
 
@@ -130,121 +98,65 @@ Next, we try to map the results with the Singapore subzones and planning areas t
 
 Let's take a look of the data group by planning areas in a table format instead:
 
-+-----------------------------------+-----------------------------------+
-| **Planning Area**                 | **Average of Suitability Scores** |
-+-----------------------------------+-----------------------------------+
-| LIM CHU KANG                      | 3.940877253                       |
-+-----------------------------------+-----------------------------------+
-| MARINA EAST                       | 3.923464815                       |
-+-----------------------------------+-----------------------------------+
-| PIONEER                           | 3.904588471                       |
-+-----------------------------------+-----------------------------------+
-| WESTERN WATER CATCHMENT           | 3.895560602                       |
-+-----------------------------------+-----------------------------------+
-| BOON LAY                          | 3.889690226                       |
-+-----------------------------------+-----------------------------------+
-| TUAS                              | 3.885345285                       |
-+-----------------------------------+-----------------------------------+
-| MARINE PARADE                     | 3.880840475                       |
-+-----------------------------------+-----------------------------------+
-| SELETAR                           | 3.879273588                       |
-+-----------------------------------+-----------------------------------+
-| TAMPINES                          | 3.876199109                       |
-+-----------------------------------+-----------------------------------+
-| SERANGOON                         | 3.875736593                       |
-+-----------------------------------+-----------------------------------+
-| BEDOK                             | 3.862138896                       |
-+-----------------------------------+-----------------------------------+
-| HOUGANG                           | 3.857407548                       |
-+-----------------------------------+-----------------------------------+
-| WESTERN ISLANDS                   | 3.854059743                       |
-+-----------------------------------+-----------------------------------+
-| KALLANG                           | 3.84895746                        |
-+-----------------------------------+-----------------------------------+
-| GEYLANG                           | 3.842727835                       |
-+-----------------------------------+-----------------------------------+
-| PAYA LEBAR                        | 3.842219515                       |
-+-----------------------------------+-----------------------------------+
-| ANG MO KIO                        | 3.842217771                       |
-+-----------------------------------+-----------------------------------+
-| SIMPANG                           | 3.8410741                         |
-+-----------------------------------+-----------------------------------+
-| TENGAH                            | 3.83910842                        |
-+-----------------------------------+-----------------------------------+
-| YISHUN                            | 3.829279896                       |
-+-----------------------------------+-----------------------------------+
-| PASIR RIS                         | 3.826190743                       |
-+-----------------------------------+-----------------------------------+
-| JURONG WEST                       | 3.824731269                       |
-+-----------------------------------+-----------------------------------+
-| CLEMENTI                          | 3.820439276                       |
-+-----------------------------------+-----------------------------------+
-| SUNGEI KADUT                      | 3.815334159                       |
-+-----------------------------------+-----------------------------------+
-| PUNGGOL                           | 3.813729476                       |
-+-----------------------------------+-----------------------------------+
-| TOA PAYOH                         | 3.803557577                       |
-+-----------------------------------+-----------------------------------+
-| SENGKANG                          | 3.788840939                       |
-+-----------------------------------+-----------------------------------+
-| BUKIT TIMAH                       | 3.784754753                       |
-+-----------------------------------+-----------------------------------+
-| DOWNTOWN CORE                     | 3.77519595                        |
-+-----------------------------------+-----------------------------------+
-| WOODLANDS                         | 3.770773242                       |
-+-----------------------------------+-----------------------------------+
-| CHANGI                            | 3.769451152                       |
-+-----------------------------------+-----------------------------------+
-| BISHAN                            | 3.765238543                       |
-+-----------------------------------+-----------------------------------+
-| NORTH-EASTERN ISLANDS             | 3.757680341                       |
-+-----------------------------------+-----------------------------------+
-| NOVENA                            | 3.754507314                       |
-+-----------------------------------+-----------------------------------+
-| STRAITS VIEW                      | 3.752527771                       |
-+-----------------------------------+-----------------------------------+
-| Grand Total                       | 3.752051151                       |
-+-----------------------------------+-----------------------------------+
-| OUTRAM                            | 3.733141411                       |
-+-----------------------------------+-----------------------------------+
-| JURONG EAST                       | 3.720011778                       |
-+-----------------------------------+-----------------------------------+
-| SEMBAWANG                         | 3.714194368                       |
-+-----------------------------------+-----------------------------------+
-| MANDAI                            | 3.713565281                       |
-+-----------------------------------+-----------------------------------+
-| CHOA CHU KANG                     | 3.707429741                       |
-+-----------------------------------+-----------------------------------+
-| QUEENSTOWN                        | 3.687933489                       |
-+-----------------------------------+-----------------------------------+
-| CENTRAL WATER CATCHMENT           | 3.674305223                       |
-+-----------------------------------+-----------------------------------+
-| BUKIT BATOK                       | 3.642271904                       |
-+-----------------------------------+-----------------------------------+
-| MARINA SOUTH                      | 3.637358521                       |
-+-----------------------------------+-----------------------------------+
-| BUKIT PANJANG                     | 3.633296854                       |
-+-----------------------------------+-----------------------------------+
-| TANGLIN                           | 3.610285812                       |
-+-----------------------------------+-----------------------------------+
-| ROCHOR                            | 3.608471229                       |
-+-----------------------------------+-----------------------------------+
-| BUKIT MERAH                       | 3.571848838                       |
-+-----------------------------------+-----------------------------------+
-| SINGAPORE RIVER                   | 3.568462859                       |
-+-----------------------------------+-----------------------------------+
-| SOUTHERN ISLANDS                  | 3.466175956                       |
-+-----------------------------------+-----------------------------------+
-| NEWTON                            | 3.434079288                       |
-+-----------------------------------+-----------------------------------+
-| RIVER VALLEY                      | 3.422468613                       |
-+-----------------------------------+-----------------------------------+
-| MUSEUM                            | 3.347587732                       |
-+-----------------------------------+-----------------------------------+
-| ORCHARD                           | 3.265530888                       |
-+-----------------------------------+-----------------------------------+
-| CHANGI BAY                        | NA                                |
-+-----------------------------------+-----------------------------------+
+|                         |                                   |
+|-------------------------|-----------------------------------|
+| **Planning Area**       | **Average of Suitability Scores** |
+| LIM CHU KANG            | 3.940877253                       |
+| MARINA EAST             | 3.923464815                       |
+| PIONEER                 | 3.904588471                       |
+| WESTERN WATER CATCHMENT | 3.895560602                       |
+| BOON LAY                | 3.889690226                       |
+| TUAS                    | 3.885345285                       |
+| MARINE PARADE           | 3.880840475                       |
+| SELETAR                 | 3.879273588                       |
+| TAMPINES                | 3.876199109                       |
+| SERANGOON               | 3.875736593                       |
+| BEDOK                   | 3.862138896                       |
+| HOUGANG                 | 3.857407548                       |
+| WESTERN ISLANDS         | 3.854059743                       |
+| KALLANG                 | 3.84895746                        |
+| GEYLANG                 | 3.842727835                       |
+| PAYA LEBAR              | 3.842219515                       |
+| ANG MO KIO              | 3.842217771                       |
+| SIMPANG                 | 3.8410741                         |
+| TENGAH                  | 3.83910842                        |
+| YISHUN                  | 3.829279896                       |
+| PASIR RIS               | 3.826190743                       |
+| JURONG WEST             | 3.824731269                       |
+| CLEMENTI                | 3.820439276                       |
+| SUNGEI KADUT            | 3.815334159                       |
+| PUNGGOL                 | 3.813729476                       |
+| TOA PAYOH               | 3.803557577                       |
+| SENGKANG                | 3.788840939                       |
+| BUKIT TIMAH             | 3.784754753                       |
+| DOWNTOWN CORE           | 3.77519595                        |
+| WOODLANDS               | 3.770773242                       |
+| CHANGI                  | 3.769451152                       |
+| BISHAN                  | 3.765238543                       |
+| NORTH-EASTERN ISLANDS   | 3.757680341                       |
+| NOVENA                  | 3.754507314                       |
+| STRAITS VIEW            | 3.752527771                       |
+| Grand Total             | 3.752051151                       |
+| OUTRAM                  | 3.733141411                       |
+| JURONG EAST             | 3.720011778                       |
+| SEMBAWANG               | 3.714194368                       |
+| MANDAI                  | 3.713565281                       |
+| CHOA CHU KANG           | 3.707429741                       |
+| QUEENSTOWN              | 3.687933489                       |
+| CENTRAL WATER CATCHMENT | 3.674305223                       |
+| BUKIT BATOK             | 3.642271904                       |
+| MARINA SOUTH            | 3.637358521                       |
+| BUKIT PANJANG           | 3.633296854                       |
+| TANGLIN                 | 3.610285812                       |
+| ROCHOR                  | 3.608471229                       |
+| BUKIT MERAH             | 3.571848838                       |
+| SINGAPORE RIVER         | 3.568462859                       |
+| SOUTHERN ISLANDS        | 3.466175956                       |
+| NEWTON                  | 3.434079288                       |
+| RIVER VALLEY            | 3.422468613                       |
+| MUSEUM                  | 3.347587732                       |
+| ORCHARD                 | 3.265530888                       |
+| CHANGI BAY              | NA                                |
 
 ## Surface Irradiance
 

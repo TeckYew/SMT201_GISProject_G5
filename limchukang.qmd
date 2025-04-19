@@ -15,7 +15,7 @@ For the factors of aspect, slope and hillshade, as these factors are considered 
 
 Now, let's take a look of each of the factor first:
 
-## Aspect 
+## Aspect
 
 Aspect refers to the compass direction a slope faces. In solar energy planning, **south-facing slopes** are typically the most optimal in the northern hemisphere. For Singapore (near the equator), **flat or slightly south-facing areas** receive the most consistent sunlight throughout the year.
 
@@ -37,7 +37,7 @@ Hillshade is a visual representation of terrain based on light and shadow, simul
 
 From the above map, we can see that most of Lim Chu Kang shows light orange to white, indicating good exposure to sunlight. Some small dark red zones may be in shadow (e.g. valleys or behind elevation changes). Overall, terrain shading is not a major concern, which is good news for solar feasibility.
 
-# Final Suitability of land form features: Aspect, Slope, Hillshade 
+# Final Suitability of land form features: Aspect, Slope, Hillshade
 
 ![](images/final_suitability_lck.png)
 
@@ -52,7 +52,7 @@ Here is the results:
 Base on the final suitability score, we can come up with a few selection on site that we can dive into: (ranking is not relevant)
 
 | No. | Site | Explanation |   |
-|-------------|-----------------------------|-----------------------------|--|
+|-------------|-----------------------|-----------------------|-------------|
 | 1 | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body |  |
 | 2 | Eastern Lim Chu Kang | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |  |
 | 3 | Southern and Western Edges | Area is sparse |  |
@@ -64,11 +64,9 @@ Base on the final suitability score, we can come up with a few selection on site
 
 To investigate each of the site, these factors are being considered:
 
-| Site | Land Use | Building Proximity | Road Proximity | Explanation |
-|----|----|----|----|----|
-| 1: Sungei Buloh Wetland Reserve | Waterbody |  |  |  |
-| 2: Eastern Lim Chu Kang | Utitlity |  |  |  |
-| 3: Southern and Western Edges | Open Space |  |  |  |
-| 4: Southern and Western Edges | Open Space |  |  |  |
-
-![](images/clipboard-2793767153.png){width="419"}
+| Site                            | Land Use   |
+|---------------------------------|------------|
+| 1: Sungei Buloh Wetland Reserve | Waterbody  |
+| 2: Eastern Lim Chu Kang         | Utitlity   |
+| 3: Southern and Western Edges   | Open Space |
+| 4: Southern and Western Edges   | Open Space |
