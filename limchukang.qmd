@@ -71,12 +71,17 @@ Base on the final suitability score, we can come up with a few selection on site
 
 To investigate each of the site, these factors are being considered:
 
-| Site | Land Use | Building Proximity | Road Proximity |
-|----|----|----|----|
-| 1: Sungei Buloh Wetland Reserve | Park | 230m-369m | \<100m |
-| 2: Eastern Lim Chu Kang | Utitlity | 369m-530m | 100-200m |
-| 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |
-| 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |
++----------+---------------------------------+
+| No.      | Site                            |
++==========+=================================+
+| 1        | Sungei Buloh Wetland Reserve    |
++----------+---------------------------------+
+| 2        | Eastern Lim Chu Kang            |
++----------+---------------------------------+
+| 3        | Southern and Western Edges      |
++----------+---------------------------------+
+| 4        | Southern and Western Edges      |
++----------+---------------------------------+
 
 ![](images/clipboard-1855345637.png)
 
@@ -121,15 +126,24 @@ Based on the 3 different sites considered for the road accessibility based on th
 
 ## Current Land Use planning in the area
 
-![](images/Screenshot 2025-04-17 183034.png)
+![](images/landuse_lck.png)
 
-We also mapped out the current Landuse in Lim Chu Kang to identify the areas which can be used for a potential Solar Farm, and which areas have to be avoided (e.g Reserve Sites, Military). From the Figure above, we can see that the dark purple (open spaces) and light blue (Parks) cover majority of Lim Chu Kang and can be used for potential solar farms.
+We also mapped out the current Landuse in Lim Chu Kang to identify the areas which can be used for a potential Solar Farm, and which areas have to be avoided (e.g Reserve Sites, Military). From the Figure above, we can see that the green (open spaces) and bright green(Parks) cover majority of Lim Chu Kang and can be used for potential solar farms.
+
+## Summary 
+
+| Site | Land Use | Building Proximity | Road Proximity |
+|----|----|----|----|
+| 1: Sungei Buloh Wetland Reserve | Park | 230m-369m | \<100m |
+| 2: Eastern Lim Chu Kang | Utitlity | 369m-530m | 100-200m |
+| 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |
+| 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |
 
 # Conclusion
 
 ## Optimal Solar Panel Installation Sites in Lim Chu Kang
 
-Based on the detailed site analysis and considering Singapore's unique constraints for renewable energy deployment, we recommend Site 2: Eastern Lim Chu Kang as the best option for large-scale solar panel installation. Here's our comprehensive justification for this selection:
+Based on the detailed site analysis and considering Singapore's unique constraints for renewable energy deployment, we recommend [**Site 2: Eastern Lim Chu Kang**]{.underline} as the best option for large-scale solar panel installation. Here's our comprehensive justification for this selection:
 
 ### Land Use Suitability
 
