@@ -7,6 +7,8 @@ date-modified: "March 17,2025"
 
 ## About
 
+**Access our github repository here:** [github](https://github.com/TeckYew/SMT201_GISProject_G5.git)
+
 ## This project consists of Teck Yew, Karina, and Santhya.
 
-## Linkedin Social
+![](images/clipboard-899793262.png)
