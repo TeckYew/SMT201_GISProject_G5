@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -146,7 +146,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#data-collection-preparation" id="toc-data-collection-preparation" class="nav-link" data-scroll-target="#data-collection-preparation">Data Collection/ Preparation</a></li>
+  <li><a href="#data-collection-preparation" id="toc-data-collection-preparation" class="nav-link" data-scroll-target="#data-collection-preparation">Data Collection/ Preparation</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  </ul></li>
   <li><a href="#madm-feasibility-topography-analysis" id="toc-madm-feasibility-topography-analysis" class="nav-link" data-scroll-target="#madm-feasibility-topography-analysis">MADM Feasibility Topography Analysis</a>
   <ul class="collapse">
   <li><a href="#power-grid-electricity-flow" id="toc-power-grid-electricity-flow" class="nav-link" data-scroll-target="#power-grid-electricity-flow">Power Grid Electricity Flow</a></li>
@@ -218,59 +221,87 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-collection-preparation" class="level1">
 <h1>Data Collection/ Preparation</h1>
-<p>Data was collected from various sources to be used in the different analyses. Namely, they are:</p>
-<ul>
-<li><p>Data.gov.sg:</p>
-<ul>
-<li><p><a href="https://data.gov.sg/datasets?query=2019+subzone+masterplan&amp;resultId=d_0900fdcfdb4666fe2a630f37a532fc06&amp;page=1">Master Plan 2019 Subzone Boundary (No Sea) (KML)</a>: Subzone Boundary Layer of Singapore for Master Plan 2019</p>
-<ul>
-<li><a href="https://data.gov.sg/datasets?query=landuse+2019&amp;page=1&amp;resultId=d_f8adc7bd980dd15861c83ff370a72eaa">Amendment to Master Plan 2019 Land Use layer</a>: Landuse Layer for Master Plan 2019</li>
-</ul></li>
-</ul></li>
-<li><p><a href="https://power.larc.nasa.gov/api/pages/?urls.primaryName=Monthly+%26+Annual">NASA POWER Monthly and Annual API</a>: This API was used to retrieve surface irradiance data for Singapore.</p></li>
-</ul>
-</section>
-<section id="madm-feasibility-topography-analysis" class="level1">
-<h1>MADM Feasibility Topography Analysis</h1>
-<p>To select Lim Chu Kang as the specific study area for solar panel installation, we considered six critical factors. Each factor plays a unique role in determining the suitability of the area for solar energy deployment. Below is an explanation of each factor and why it was chosen:</p>
+<p>Data was collected from various sources to be used in the different analyses. For the purpose of this project, we will be using various land-form and satellite data. The data is taken from <a href="https://data.gov.sg/">Data Gov</a> and NASA website. The table below will show the sources of the files that we have used for our analysis.</p>
+<p>For the Land Form data taken from Data.Gov website:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Factors</th>
-<th>Explanation</th>
+<th>File Name</th>
+<th>Description</th>
+<th>Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Aspect</strong></td>
-<td>Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore’s equatorial position.</td>
+<td>Layers of Singapore for Master Plan 2019</td>
+<td>Provides the map layer for Singapore.</td>
+<td><p><a href="https://data.gov.sg/datasets?query=land+use+2019&amp;page=1&amp;resultId=d_90d86daa5bfaa371668b84fa5f01424f" class="uri">https://data.gov.sg/datasets?query=land+use+2019&amp;page=1&amp;resultId=d_90d86daa5bfaa371668b84fa5f01424f</a></p>
+<ul>
+<li><p><a href="https://data.gov.sg/datasets?query=2019+subzone+masterplan&amp;resultId=d_0900fdcfdb4666fe2a630f37a532fc06&amp;page=1">Master Plan 2019 Subzone Boundary (No Sea) (KML)</a></p></li>
+<li><p><a href="https://data.gov.sg/datasets?query=landuse+2019&amp;page=1&amp;resultId=d_f8adc7bd980dd15861c83ff370a72eaa">Amendment to Master Plan 2019 Land Use layer</a></p></li>
+</ul></td>
 </tr>
 <tr class="even">
-<td><strong>Slope</strong></td>
-<td>Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (&lt;10°) are ideal for solar panels as they allow proper installation angles without structural challenges.</td>
+<td>Bulding, Transport, Road</td>
+<td>For building, transports and road data layer</td>
+<td><a href="https://download.geofabrik.de/asia/malaysia-singapore-brunei.html" class="uri">https://download.geofabrik.de/asia/malaysia-singapore-brunei.html</a></td>
 </tr>
 <tr class="odd">
-<td><strong>Hillshade</strong></td>
-<td>Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions.</td>
+<td>Property Prices</td>
+<td>The prices for properties in Singapore. Only 2023 and 2024 will be used for the purpose of the project.</td>
+<td><a href="https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view" class="uri">https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view</a></td>
 </tr>
 <tr class="even">
-<td><strong>Surface Ir-radiance</strong></td>
-<td>Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential.</td>
+<td>Derived map of global electricity transmission and distribution lines</td>
+<td>Electricity transmission of power grids occurring in Singapore.</td>
+<td><a href="https://energydata.info/dataset/derived-map-global-electricity-transmission-and-distribution-lines" class="uri">https://energydata.info/dataset/derived-map-global-electricity-transmission-and-distribution-lines</a></td>
 </tr>
 <tr class="odd">
-<td><strong>Property Prices</strong></td>
-<td>Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable</td>
-</tr>
-<tr class="even">
-<td><strong>Power Electricity Grid Flow</strong></td>
-<td>Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs.</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
+<p>For the API site:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>File Name</th>
+<th>Description</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ul>
+<li><a href="https://power.larc.nasa.gov/api/pages/?urls.primaryName=Monthly+%26+Annual">NASA POWER Monthly and Annual API</a></li>
+</ul></td>
+<td><ul>
+<li>This API was used to retrieve surface irradiance data for Singapore.</li>
+</ul></td>
+<td><a href="https://power.larc.nasa.gov/api/pages/?urls.primaryName=Monthly+%26+Annual" class="uri">https://power.larc.nasa.gov/api/pages/?urls.primaryName=Monthly+%26+Annual</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+</section>
+</section>
+<section id="madm-feasibility-topography-analysis" class="level1">
+<h1>MADM Feasibility Topography Analysis</h1>
+<p>To select Lim Chu Kang as the specific study area for solar panel installation, we considered six critical factors. Each factor plays a unique role in determining the suitability of the area for solar energy deployment. Below is an explanation of each factor and why it was chosen:</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD | Factors | Explanation | |—-|—-| | <strong>Aspect</strong> | Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore’s equatorial position. | | <strong>Slope</strong> | Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (&lt;10°) are ideal for solar panels as they allow proper installation angles without structural challenges. | | <strong>Hillshade</strong> | Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions. | | <strong>Surface Ir-radiance</strong> | Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential. | | <strong>Property Prices</strong> | Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable | | <strong>Power Electricity Grid Flow</strong> | Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs. | ======= +———————————-+————————————————————————————————————————————————————————————————————————————————————————-+ | Factors | Explanation | +==================================+=========================================================================================================================================================================================================================================================================+ | <strong>Aspect</strong> | Aspect refers to the direction that a slope faces, measured in degrees (0–360°). South-facing slopes (157.5°–202.5°) are optimal for solar panels in Singapore because they receive the most direct sunlight throughout the day due to Singapore’s equatorial position. | +———————————-+————————————————————————————————————————————————————————————————————————————————————————-+ | <strong>Slope</strong> | Slope measures the steepness of terrain, expressed in degrees. Flat or gently sloping areas (&lt;10°) are ideal for solar panels as they allow proper installation angles without structural challenges. | +———————————-+————————————————————————————————————————————————————————————————————————————————————————-+ | <strong>Hillshade</strong> | Hillshade simulates terrain illumination based on sun position (azimuth and altitude). It identifies areas exposed to direct sunlight versus shaded regions. | +———————————-+————————————————————————————————————————————————————————————————————————————————————————-+ | <strong>Surface Ir-radiance</strong> | Surface irradiance measures the amount of solar radiation received per unit area, typically in kWh/m²/year. Higher irradiance levels directly correlate with higher energy generation potential. | +———————————-+————————————————————————————————————————————————————————————————————————————————————————-+ | <strong>Property Prices</strong> | Property prices influence the economic feasibility of solar projects. Areas with lower land costs reduce overall project expenses, making large-scale installations more viable | +———————————-+————————————————————————————————————————————————————————————————————————————————————————-+ | <strong>Power Electricity Grid Flow</strong> | Proximity to existing electrical grid infrastructure is crucial for connecting solar farms and minimizing transmission costs. | +———————————-+————————————————————————————————————————————————————————————————————————————————————————-+ &gt;&gt;&gt;&gt;&gt;&gt;&gt; 3838b7d5bbf74b19b8c349d18eb633a7c8bb0de0</p>
 <section id="power-grid-electricity-flow" class="level2">
 <h2 class="anchored" data-anchor-id="power-grid-electricity-flow">Power Grid Electricity Flow</h2>
 <p>The Power Grid Electricity Flow map illustrates electricity transmission from power grids across Singapore, with grid locations highlighted in red. Notably, the central region exhibits denser and more interconnected electrical flow, indicating high infrastructure activity. However, this area is also heavily populated with properties and transport networks—represented by the blue and red points—leaving limited space for solar farm installations. In contrast, areas toward the western region, including Lim Chu Kang, show less development and extended (but lower) grid density, suggesting greater potential for solar farm deployment due to the availability of open land and fewer competing land-use demands.</p>
@@ -282,56 +313,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="irradiance-data">Irradiance Data</h3>
 <p>Prediction Of Worldwide Energy Resources (POWER) is a project that seeks to provide data and services related to renewable energy like solar energy. The open API services provided by POWER allows for retrieval of irradiance data for our specified region of the world. This API was used to retrieve the monthly Irradiance values for Singapore from the years 2023-2025.</p>
 <p>The parameters for the API Call are as summarised below:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Parameter</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>parameters</code></td>
-<td>The climate or solar parameter to retrieve (only one allowed per request)</td>
-</tr>
-<tr class="even">
-<td><code>community</code></td>
-<td>Defines the user community and data context</td>
-</tr>
-<tr class="odd">
-<td><code>latitude-min</code></td>
-<td>Minimum latitude of the bounding box</td>
-</tr>
-<tr class="even">
-<td><code>latitude-max</code></td>
-<td>Maximum latitude of the bounding box</td>
-</tr>
-<tr class="odd">
-<td><code>longitude-min</code></td>
-<td>Minimum longitude of the bounding box</td>
-</tr>
-<tr class="even">
-<td><code>longitude-max</code></td>
-<td>Maximum longitude of the bounding box</td>
-</tr>
-<tr class="odd">
-<td><code>start</code></td>
-<td>Start year of the data request</td>
-</tr>
-<tr class="even">
-<td><code>end</code></td>
-<td>End year of the data request</td>
-</tr>
-<tr class="odd">
-<td><code>format</code></td>
-<td>Output file format</td>
-</tr>
-</tbody>
-</table>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD | <strong>Parameter</strong> | <strong>Description</strong> | |—-|—-| | <code>parameters</code> | The climate or solar parameter to retrieve (only one allowed per request) | | <code>community</code> | Defines the user community and data context | | <code>latitude-min</code> | Minimum latitude of the bounding box | | <code>latitude-max</code> | Maximum latitude of the bounding box | | <code>longitude-min</code> | Minimum longitude of the bounding box | | <code>longitude-max</code> | Maximum longitude of the bounding box | | <code>start</code> | Start year of the data request | | <code>end</code> | End year of the data request | | <code>format</code> | Output file format | ======= +———————————-+—————————————————————————+ | <strong>Parameter</strong> | <strong>Description</strong> | +==================================+===========================================================================+ | <code>parameters</code> | The climate or solar parameter to retrieve (only one allowed per request) | +———————————-+—————————————————————————+ | <code>community</code> | Defines the user community and data context | +———————————-+—————————————————————————+ | <code>latitude-min</code> | Minimum latitude of the bounding box | +———————————-+—————————————————————————+ | <code>latitude-max</code> | Maximum latitude of the bounding box | +———————————-+—————————————————————————+ | <code>longitude-min</code> | Minimum longitude of the bounding box | +———————————-+—————————————————————————+ | <code>longitude-max</code> | Maximum longitude of the bounding box | +———————————-+—————————————————————————+ | <code>start</code> | Start year of the data request | +———————————-+—————————————————————————+ | <code>end</code> | End year of the data request | +———————————-+—————————————————————————+ | <code>format</code> | Output file format | +———————————-+—————————————————————————+ &gt;&gt;&gt;&gt;&gt;&gt;&gt; 3838b7d5bbf74b19b8c349d18eb633a7c8bb0de0</p>
 <p>The API Call that was used to retrieve the data was therefore:</p>
 <p><code>https://power.larc.nasa.gov/api/temporal/monthly/point?start=2023&amp;end=2025&amp;latitude=1.3521&amp;longitude=103.8198&amp;parameters=ALLSKY_SFC_SW_DWN&amp;community=RE&amp;format=CSV</code></p>
 <p>The API call returns monthly Irradiance values, as well as an annual average. For our analysis, the annual average was used.</p>
@@ -447,6 +429,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -557,6 +541,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
