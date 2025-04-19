@@ -177,7 +177,7 @@ Although Site 2 is slightly further from the roads compared to other sites, the 
 
 -   Sufficient proximity to enable grid connection without excessive transmission infrastructure
 
-### Why Other Sites are less suitable:
+### Why Other Sites are less suitable
 
 [**Site 1 ((Sungei Buloh Wetland Reserve):**]{.underline}
 
