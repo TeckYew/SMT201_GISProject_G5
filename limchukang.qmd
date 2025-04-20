@@ -53,17 +53,17 @@ Here is the results:
 
 Base on the final suitability score, we can come up with a few selection on site that we can dive into: (ranking is not relevant)
 
-+----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| No.      | Site                         | Explanation                                                                                                                    |
-+==========+==============================+================================================================================================================================+
-| 1        | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body                                                     |
-+----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| 2        | Eastern Lim Chu Kang         | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |
-+----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| 3        | Southern and Western Edges   | Area is sparse                                                                                                                 |
-+----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| 4        | Southern and Western Edges   | Area is sparse                                                                                                                 |
-+----------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
++-----------------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| No.                   | Site                         | Explanation                                                                                                                    |
++=======================+==============================+================================================================================================================================+
+| 1                     | Sungei Buloh Wetland Reserve | Large flat land and feasibility of laying solar panels over the water body                                                     |
++-----------------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| 2                     | Eastern Lim Chu Kang         | Noticeable green patches are also found along the eastern edge, especially near the main access road leading into Lim Chu Kang |
++-----------------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| 3                     | Southern and Western Edges   | Area is sparse                                                                                                                 |
++-----------------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| 4                     | Southern and Western Edges   | Area is sparse                                                                                                                 |
++-----------------------+------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 
 ![](images/clipboard-1761206069.png)
 
@@ -71,17 +71,12 @@ Base on the final suitability score, we can come up with a few selection on site
 
 To investigate each of the site, these factors are being considered:
 
-+-------------+------------------------------+
-| No.         | Site                         |
-+=============+==============================+
-| 1           | Sungei Buloh Wetland Reserve |
-+-------------+------------------------------+
-| 2           | Eastern Lim Chu Kang         |
-+-------------+------------------------------+
-| 3           | Southern and Western Edges   |
-+-------------+------------------------------+
-| 4           | Southern and Western Edges   |
-+-------------+------------------------------+
+| No. | Site                         |
+|-----|------------------------------|
+| 1   | Sungei Buloh Wetland Reserve |
+| 2   | Eastern Lim Chu Kang         |
+| 3   | Southern and Western Edges   |
+| 4   | Southern and Western Edges   |
 
 ![](images/clipboard-1855345637.png)
 
@@ -115,7 +110,7 @@ Due to Singapore's space constraint, if Lim Chu Kang were to be re-purposed for 
 
 ## Roads Proximity within the area
 
-Road proximity serve as an informatics for development and installation of solar farms during the construction phase. The darker areas in red represent the most suitable areas that are closer to the roads whereas the lighter reds represent areas further away from the roads. This is done by using the acccessibility factor of:\
+Road proximity serve as an informatics for development and installation of solar farms during the construction phase. The darker areas in red represent the most suitable areas that are closer to the roads whereas the lighter reds represent areas further away from the roads. This is done by using the accessibility factor of:\
 \<=100m = 5, 100-200m = 4, 200-300m = 3, 300-500m = 2, \>500m = 1 from roads. This will help us rank the suitability for solar farm installation using road proximity as a factor for economical savings.
 
 ![](images/road.png){width="514"}

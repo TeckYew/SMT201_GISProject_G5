@@ -16,19 +16,19 @@ Aspect is derived from the data of DEM of Singapore. The below is the results of
 
 From the above map, it is hard to tell than which specific area has a good aspect to install solar panels.
 
-Therefore, to better understand the aspect in singapore, we decide to conduct suitability ranking of the aspect data. It may helps us understand which area has a more concentration of good aspect. The following is the ranking we follow:
+Therefore, to better understand the aspect in Singapore, we decide to conduct suitability ranking of the aspect data. It may helps us understand which area has a more concentration of good aspect. The following is the ranking we follow:
 
 | **Rank** | **Aspect Range (°)** | **Direction** | **Suitability Rationale** |
 |------------------|------------------|------------------|------------------|
 | 5 | 157.5 \< value ≤ 202.5 | True South ±22.5° | Optimal for equatorial solar exposure |
 | 4 | 112.5 \< value ≤ 157.5 | Southeast | 95–98% efficiency due to morning sun |
-|  | 202.5 \< value ≤ 247.5 | Southwest |  |
+|  | 202.5 \< value ≤ 247.5 | Southwest | \- |
 | 3 | 67.5 \< value ≤ 112.5 | East | Moderate efficiency (85–90%) |
-|  | 247.5 \< value ≤ 292.5 | West |  |
+|  | 247.5 \< value ≤ 292.5 | West | \- |
 | 2 | 22.5 \< value ≤ 67.5 | Northeast | Lower efficiency (75–80%) |
-|  | 292.5 \< value ≤ 337.5 | Northwest |  |
+|  | 292.5 \< value ≤ 337.5 | Northwest | \- |
 | 1 | 337.5 \< value ≤ 360 | North (Part 1) | Least suitable (60–70%) due to indirect sun |
-|  | 0 \< value ≤ 22.5 | North (Part 2) |  |
+|  | 0 \< value ≤ 22.5 | North (Part 2) | \- |
 
 Here is the results of the aspect suitability in Singapore:
 
@@ -164,7 +164,7 @@ Let's take a look of the data group by planning areas in a table format instead:
 
 ### Surface Irradiance
 
-#### Surface Irradiance refers the amount of sunlight that is received by the land surface.
+#### Surface irradiance refers the amount of sunlight that is received by the land surface.
 
 ![](images/Screenshot%202025-04-09%20234217-01.png)
 

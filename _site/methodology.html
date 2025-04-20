@@ -258,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Others:</p>
+<p>Other sites we used for topography analysis:</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -342,12 +342,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="surface-irradiance">Surface Irradiance</h2>
 <section id="irradiance-data" class="level3">
 <h3 class="anchored" data-anchor-id="irradiance-data">Irradiance Data</h3>
-<p>Prediction Of Worldwide Energy Resources (POWER) is a project that seeks to provide data and services related to renewable energy like solar energy. The open API services provided by POWER allows for retrieval of irradiance data for our specified region of the world. This API was used to retrieve the monthly Irradiance values for Singapore from the years 2023-2025.</p>
-<p>The parameters for the API Call are as summarised below:</p>
+<p>Prediction Of Worldwide Energy Resources (POWER) is a project that seeks to provide data and services related to renewable energy like solar energy. The open API services provided by POWER allows for retrieval of irradiance data for our specified region of the world. This API was used to retrieve the monthly irradiance values for Singapore from the years 2023-2025.</p>
+<p>The parameters for the API Call are as summarized below:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 31%">
-<col style="width: 68%">
+<col style="width: 22%">
+<col style="width: 77%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -396,15 +396,15 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>The API Call that was used to retrieve the data was therefore:</p>
 <p><code>https://power.larc.nasa.gov/api/temporal/monthly/point?start=2023&amp;end=2025&amp;latitude=1.3521&amp;longitude=103.8198&amp;parameters=ALLSKY_SFC_SW_DWN&amp;community=RE&amp;format=CSV</code></p>
-<p>The API call returns monthly Irradiance values, as well as an annual average. For our analysis, the annual average was used.</p>
+<p>The API call returns monthly irradiance values, as well as an annual average. For our analysis, the annual average was used.</p>
 </section>
 <section id="irradiance-area-calculation" class="level3">
 <h3 class="anchored" data-anchor-id="irradiance-area-calculation">Irradiance Area Calculation</h3>
-<p>In QGIS, we first load in the Masterplan 2019 Subzone Boundaary Layer.</p>
+<p>In QGIS, we first load in the Masterplan 2019 Subzone Boundary Layer.</p>
 <ul>
 <li><p>After which, a new field, “Area” was calculated using the field calculator, with the expression : <code>$area</code></p></li>
 <li><p>This area was multiplied by the annual irradiance value of 2023, since it was the year with complete readings.</p></li>
-<li><p>The result was then symbolised on a map with graduated colouring.</p></li>
+<li><p>The result was then symbolized on a map with graduated coloring.</p></li>
 </ul>
 </section>
 </section>
@@ -419,7 +419,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Final Site Selection</h1>
 <p>With all the factors considered, we decided that the most suitable location for a potential solar farm would be in <strong>Lim Chu Kang.</strong></p>
 <p>We then performed further analysis of the isolated Lim Chu Kang subzone to seek out suitable locations <em>within</em> Lim Chu Kang. Factors that were considered were land suitability, proximity to roads, proximity to buildings, and landuse types.</p>
-<p>For land suitability, the same topography method was employed, but on the area of Lim Chu Kang. Proximity to roads was considered as it would be a crucial factor in construction of solar fams, in terms of transportation of construction materials. We also analysed proximity between buildings so to identify areas with large enough open spaces that could house a solar farm.</p>
+<p>For land suitability, the same topography method was employed, but on the area of Lim Chu Kang. Proximity to roads was considered as it would be a crucial factor in construction of solar farms, in terms of transportation of construction materials. We also analysed proximity between buildings so to identify areas with large enough open spaces that could house a solar farm.</p>
 <p>Lastly, for landuse types, we identified that Open Spaces and Agricultural Spaces were the best types of land to host a solar farm on. Open Spaces are available land spaces that are not being used to anything else, and would therefore have the lowest barrier to building a solar farm. Agricultural Lands often contain huge areas of land that are directly exposed to the sun, making them highly suitable spaces as well. For these reasons, landuse analysis was also employed to narrow down the area.</p>
 <p>Ultimately, the northern area of Lim Chu Kang, <strong>Sungei Buloh</strong>, was chosen as the most optimal location for a potential solar farm in Singapore.</p>
 
