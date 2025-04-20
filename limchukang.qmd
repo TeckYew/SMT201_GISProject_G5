@@ -71,17 +71,17 @@ Base on the final suitability score, we can come up with a few selection on site
 
 To investigate each of the site, these factors are being considered:
 
-+----------+---------------------------------+
-| No.      | Site                            |
-+==========+=================================+
-| 1        | Sungei Buloh Wetland Reserve    |
-+----------+---------------------------------+
-| 2        | Eastern Lim Chu Kang            |
-+----------+---------------------------------+
-| 3        | Southern and Western Edges      |
-+----------+---------------------------------+
-| 4        | Southern and Western Edges      |
-+----------+---------------------------------+
++-------------+------------------------------+
+| No.         | Site                         |
++=============+==============================+
+| 1           | Sungei Buloh Wetland Reserve |
++-------------+------------------------------+
+| 2           | Eastern Lim Chu Kang         |
++-------------+------------------------------+
+| 3           | Southern and Western Edges   |
++-------------+------------------------------+
+| 4           | Southern and Western Edges   |
++-------------+------------------------------+
 
 ![](images/clipboard-1855345637.png)
 
@@ -128,14 +128,14 @@ Based on the 3 different sites considered for the road accessibility based on th
 
 ![](images/landuse_lck.png)
 
-We also mapped out the current Landuse in Lim Chu Kang to identify the areas which can be used for a potential Solar Farm, and which areas have to be avoided (e.g Reserve Sites, Military). From the Figure above, we can see that the green (open spaces) and bright green(Parks) cover majority of Lim Chu Kang and can be used for potential solar farms.
+We also mapped out the current Landuse in Lim Chu Kang to identify the areas which can be used for a potential Solar Farm, and which areas have to be avoided (e.g Reserve Sites, Military). From the figure above, we can see that the green (open spaces) and bright green (Parks) cover majority of Lim Chu Kang and can be used for potential solar farms. The other areas can be also used for the installation of solar farms depending on the various factors considered above.
 
-## Summary 
+## Summary
 
 | Site | Land Use | Building Proximity | Road Proximity |
 |----|----|----|----|
 | 1: Sungei Buloh Wetland Reserve | Park | 230m-369m | \<100m |
-| 2: Eastern Lim Chu Kang | Utitlity | 369m-530m | 100-200m |
+| 2: Eastern Lim Chu Kang | Utility | 369m-530m | 100-200m |
 | 3: Southern and Western Edges | Open Space | 230m-369m | \<100m |
 | 4: Southern and Western Edges | Open Space | 230m-369m | \<100m |
 
@@ -155,7 +155,7 @@ Site 2 is classified as "Utility" land, which makes it perfect for our solar pro
 
 ### **Spatial Characteristics**
 
-The satellite image shows Site 2 features a large, contiguous open area with what appears to be cleared land with minial vegetation:
+The satellite image shows Site 2 features a large, contiguous open area with what appears to be cleared land with minimal vegetation:
 
 -   The expansive area allows for economies of scale in installation and maintenance.
 
@@ -185,7 +185,7 @@ Despite good accessibility (\<100m to roads), its designation as a waterbody in 
 
 [**Site 3 & 4 (Southern & Western Edges):**]{.underline}
 
-Site 3 and 4 are smaller than Site 2 so the amount of solar panels will not be as many as Site 2. In addition, they are closed to buildings like Animal Plant & Health Centre, Sungei Gedong Medical Centre, etc. Proximity to buildings might increase shading effect as well. Installing solar panels next to the plot of land might not be the most ideal situation, reducing the efficiency in deployment.
+Site 3 and 4 are smaller than Site 2 so the amount of solar panels will not be as many as Site 2. In addition, they are closed to buildings like Animal Plant & Health Center, Sungei Gedong Medical Center, etc. Proximity to buildings might increase shading effect as well. Installing solar panels next to the plot of land might not be the most ideal situation, reducing the efficiency in deployment.
 
 ### Implementation Recommendation
 
