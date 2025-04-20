@@ -2,7 +2,7 @@
 title: "Overall Analysis in Singapore"
 ---
 
-![](images/singapore.png){width="513"}
+![](images/singapore.png)
 
 In this analysis of Singapore, our goal is to identify and understand the key factors that influence the installation of solar farms. While Singapore already has existing solar panel installations—such as those on HDB rooftops and floating solar panels on water bodies—we aim to conduct further research to uncover additional factors that affect where and how solar farms can be implemented. Based on these findings, we will narrow our focus to a specific region within Singapore for a more in-depth analysis. This approach will help us more accurately assess the feasibility of solar farm installations and determine whether the identified factors are sufficient for making informed decisions.
 
