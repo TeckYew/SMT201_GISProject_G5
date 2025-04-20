@@ -4,6 +4,8 @@ title: "Deep Dive into Lim Chu Kang"
 
 # Lim Chu Kang
 
+![](images/lck.png)
+
 In the Overview Analysis in Singapore, we found that Lim Chu Kang is topped as the first choice of solar farm in Singapore. To further analyse which site in Lum Chu Kang is suitable for solar farm, we will look into these criteria:
 
 1.  Aspect
